@@ -1,2 +1,3 @@
-# HTML-Portfolio
-Demo portfolio website for Udemy Web Dev Course Project
+# HTML-Portfolio #
+Personal website
+
