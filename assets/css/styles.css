@@ -1,0 +1,14 @@
+.photo {
+    width: 600px;
+    height: 400px;
+}
+
+.album {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me-box{
+    display: flex;
+    flex-direction: row;
+}
