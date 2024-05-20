@@ -6,17 +6,21 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./assets/css/styles.css">
-
+        <link rel="icon" type="image/x-icon" href="./assets/images/smiley.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        
     </head>
 
     <body>
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="./index.html" id="name-link" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-              <span class="fs-4" id="my-name">Jayden Metcalfe</span>
+              <span class="fs-4" id="my-logo"><img src="./assets/images/smiley.png" alt="smiley-logo" width="40" height="40"></span>
             </a>
       
             <ul class="nav nav-pills">
@@ -27,15 +31,20 @@
         </header>
 
         <div class="body-box">
+            <div class="name-pic-box">
+                <div class="name">
+                    <h1 class="big-name">Jayden</h1>
+                    <h1 class="big-name">Metcalfe</h1>
+                </div>
+            </div>
             <div class="about-me-box">
+                <div class="headshot-circle">
+                    <img src="./assets/images/headshot-resume.jpg" height="200" width="200" alt="photo of myself"/>
+                </div>
+
                 <div class="about-text">
-                    <h2>About Me</h2>
                     <p class="intro-paragraph">
-                        I am an intuitive student at McGill University, currently pursuing a Bachelor of Arts and Science degree in Cognitive Science in the Neuroscience stream with a minor in Computer Science. I am constantly seeking to expand my knowledge in a variety of areas by performing independent research to gain proficiency in many topics. 
-                        After graduating high school, I took a gap year and competed internationally as a member of the Ontario Ski Team. This involved rigorous year-round training which I approached with great tenacity and dedication in order to achieve my goals in the sport. During my time in various countries, I developed a passion for travelling, photography/videography and journaling. I currently keep a journal with my daily activities as I like to have a memory of everything that I do. Additionally, some photos from my travels are featured below. 
-                    </p>
-                    <p class="skills-text">
-                        <b><u>Skills:</u></b> Python, Java, C, Bash, HTML, CSS, JavaScript, TypeScript, Clojure, PostgreSQL, Node.js, Spring Boot, Arduino, REST APIs
+                        I am a recent graduate from McGill University with a Bachelor of Arts and Science degree. I majored in Cognitive Science with a stream in neuroscience and minor in Computer Science. I am constantly seeking to expand my knowledge in a variety of areas by performing independent research to gain proficiency in many topics. 
                     </p>
                     <button class="resume" type="submit">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -44,65 +53,87 @@
                         <a href="./assets/Jayden-Metcalfe-Resume.pdf" download="Jayden-Metcalfe-Resume">Download Resume</a>
                     </button>
                 </div>
-                <img src="./assets/images/headshot-resume.jpg" height="200" width="200" alt="photo of myself"/>
             </div>
 
+            <div class="about-me-box" id="skills-box">
+                <h2 class="skills-title">Skills:</h2>
+                <p class="skills-text">
+                    Python, Java, C, Bash, HTML, CSS, JavaScript, TypeScript, Clojure, PostgreSQL, Node.js, Spring Boot, Arduino, REST APIs, Docker, Kubernetes, Keras/TensorFlow, matplotlib, sci-kitlearn
+                </p>
+            </div>
 
+            <div class="about-me-box">
+                <div class="gapyear-text">
+                    <p class="intro-paragraph">
+                        After graduating high school, I took a gap year and competed internationally as a member of the Ontario Ski Team. This involved rigorous year-round training which I approached with great tenacity and dedication in order to achieve my goals in the sport. During my time in various countries, I developed a passion for travelling, photography/videography and journaling. Additionally, I keep a daily journal as I love to have a memory of everything that I do.
+                    </p>
+                </div>
 
-            <div class="album">
-                <div class="column">
-                    <div class="photo-pic">
-                        <img src="./assets/images/Italy_carousel.JPG" class="photo" alt="Italian mountains">
+                <div class = "slideshow">
+                    <div class="slides fade">
+                        <img src="./assets/images/Italy_carousel.JPG" class="photo" alt="Italian mountains"> 
                     </div>
-                    <div class="photo-pic">
+                    <div class="slides fade">
                         <img src="./assets/images/pab_picnic_carousel.JPG" class="photo" alt="Island picnic">
                     </div>
-                    <div class="photo-pic">
+                    <div class="slides fade">
                         <img src="./assets/images/Me_red_carousel.JPG" class="photo" alt="me skiing at top of Red Mtn">
                     </div>
-                    <!-- <div class="photo-pic">
-                        <img src="./assets/images/Red_chair_carousel.JPG" class="photo" alt="...">
-                    </div> -->
-                </div>
-                <div class="column">
-                    <!-- <div class="photo-pic">
-                        <img src="./assets/images/PAB_sunset_carousel.jpg" class="photo" alt="...">
-                    </div> -->
-                    <div class="photo-pic">
+                    <div class="slides fade">
+                        <img src="./assets/images/Red_chair_carousel.JPG" class="photo" alt="chairlift at the top of mountain">
+                    </div>
+                    <div class="slides fade">
+                        <img src="./assets/images/PAB_sunset_carousel.jpg" class="photo" alt="lake sunset">
+                    </div>
+                    <div class="slides fade">
                         <img src="./assets/images/saas_carousel.JPG" class="photo" alt="Saas Fee top of training on glacier">
                     </div>
-                    <div class="photo-pic">
+                    <div class="slides fade">
                         <img src="./assets/images/stresa_carousel.JPG" class="photo" alt="Boat in Italy">
                     </div>
-                    <div class="photo-pic">
+                    <div class="slides fade">
                         <img src="./assets/images/sun_peaks_carousel.JPG" class="photo" alt="Bottom of chairlift in Sun Peaks">
                     </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
                 </div>
             </div>
+
         </div>
 
         <footer>
-            <div class="footer-box" id="email-box">
+            <a href="mailto:jayden10.9@gmail.com" class="footer-box" id="email-box">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <path d="M23.75 5H6.25C5.25544 5 4.30161 5.39509 3.59835 6.09835C2.89509 6.80161 2.5 7.75544 2.5 8.75V21.25C2.5 22.2446 2.89509 23.1984 3.59835 23.9017C4.30161 24.6049 5.25544 25 6.25 25H23.75C24.7446 25 25.6984 24.6049 26.4017 23.9017C27.1049 23.1984 27.5 22.2446 27.5 21.25V8.75C27.5 7.75544 27.1049 6.80161 26.4017 6.09835C25.6984 5.39509 24.7446 5 23.75 5ZM23.2375 7.5L15.8875 14.85C15.7713 14.9672 15.633 15.0602 15.4807 15.1236C15.3284 15.1871 15.165 15.2197 15 15.2197C14.835 15.2197 14.6716 15.1871 14.5193 15.1236C14.367 15.0602 14.2287 14.9672 14.1125 14.85L6.7625 7.5H23.2375ZM25 21.25C25 21.5815 24.8683 21.8995 24.6339 22.1339C24.3995 22.3683 24.0815 22.5 23.75 22.5H6.25C5.91848 22.5 5.60054 22.3683 5.36612 22.1339C5.1317 21.8995 5 21.5815 5 21.25V9.2625L12.35 16.6125C13.0531 17.3148 14.0062 17.7092 15 17.7092C15.9938 17.7092 16.9469 17.3148 17.65 16.6125L25 9.2625V21.25Z" fill="#153B50"/>
                 </svg>
-                <!-- <p>jayden10.9@gmail.com</p> -->
-                <a href="mailto:jayden10.9@gmail.com">jayden10.9@gmail.com</a>
-            </div>
-            <div class="footer-box" id="github-box">
+                <span>jayden10.9@gmail.com</span>
+            </a>
+            <a href="https://github.com/jaydenmetcalfe17" class="footer-box" id="github-box">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <path d="M15 2.80835C12.0318 2.80847 9.16058 3.86474 6.89996 5.78816C4.63934 7.71158 3.13688 10.3766 2.66142 13.3065C2.18596 16.2363 2.76853 19.2397 4.30488 21.7793C5.84123 24.3189 8.23111 26.229 11.0469 27.1677C11.6719 27.2771 11.9063 26.9021 11.9063 26.574C11.9063 26.2771 11.8906 25.2927 11.8906 24.2458C8.75 24.824 7.9375 23.4803 7.6875 22.7771C7.4101 22.0933 6.97035 21.4873 6.40625 21.0115C5.96875 20.7771 5.34375 20.199 6.39062 20.1834C6.79035 20.2268 7.17374 20.3658 7.50829 20.5889C7.84285 20.8119 8.11871 21.1123 8.3125 21.4646C8.48347 21.7717 8.71335 22.0421 8.98899 22.2602C9.26463 22.4783 9.5806 22.6399 9.91879 22.7357C10.257 22.8315 10.6108 22.8596 10.9599 22.8185C11.3089 22.7773 11.6465 22.6677 11.9531 22.4958C12.0072 21.8604 12.2904 21.2662 12.75 20.824C9.96875 20.5115 7.0625 19.4333 7.0625 14.6521C7.04494 13.4098 7.50336 12.2079 8.34375 11.2928C7.96161 10.213 8.00632 9.02812 8.46875 7.98026C8.46875 7.98026 9.51559 7.65212 11.9063 9.26151C13.9516 8.69898 16.1109 8.69898 18.1563 9.26151C20.5469 7.63651 21.5938 7.98026 21.5938 7.98026C22.0562 9.0281 22.101 10.213 21.7188 11.2928C22.5617 12.2063 23.0205 13.4093 23 14.6521C23 19.449 20.0781 20.5115 17.2969 20.824C17.5952 21.1264 17.8249 21.4894 17.9705 21.8884C18.1161 22.2874 18.1741 22.7131 18.1406 23.1365C18.1406 24.8084 18.125 26.1521 18.125 26.574C18.125 26.9021 18.3594 27.2928 18.9844 27.1678C21.7952 26.2213 24.1782 24.3068 25.708 21.7659C27.2378 19.225 27.8149 16.2231 27.3361 13.2961C26.8573 10.3692 25.354 7.70756 23.0943 5.78649C20.8347 3.86541 17.9659 2.80989 15 2.80835Z" fill="#153B50"/>
                 </svg>
-                <!-- <p>github.com/jaydenmetcalfe17</p> -->
-                <a href="https://github.com/jaydenmetcalfe17">github.com/jaydenmetcalfe17</a>
-            </div>
-            <div class="footer-box" id="linkedin-box">
+                <span>github.com/jaydenmetcalfe17</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jayden-metcalfe/" class="footer-box" id="linkedin-box">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <path d="M25.5875 2.50005H4.4125C4.17447 2.49675 3.93812 2.54036 3.71695 2.62841C3.49578 2.71645 3.29413 2.8472 3.12349 3.01319C2.95286 3.17918 2.8166 3.37716 2.72249 3.59581C2.62837 3.81447 2.57826 4.04953 2.575 4.28755V25.7126C2.57826 25.9506 2.62837 26.1856 2.72249 26.4043C2.8166 26.6229 2.95286 26.8209 3.12349 26.9869C3.29413 27.1529 3.49578 27.2837 3.71695 27.3717C3.93812 27.4597 4.17447 27.5034 4.4125 27.5001H25.5875C25.8255 27.5034 26.0619 27.4597 26.283 27.3717C26.5042 27.2837 26.7059 27.1529 26.8765 26.9869C27.0471 26.8209 27.1834 26.6229 27.2775 26.4043C27.3716 26.1856 27.4217 25.9506 27.425 25.7126V4.28755C27.4217 4.04953 27.3716 3.81447 27.2775 3.59581C27.1834 3.37716 27.0471 3.17918 26.8765 3.01319C26.7059 2.8472 26.5042 2.71645 26.283 2.62841C26.0619 2.54036 25.8255 2.49675 25.5875 2.50005ZM10.1125 23.4251H6.3625V12.1751H10.1125V23.4251ZM8.2375 10.6001C7.72032 10.6001 7.22433 10.3946 6.85864 10.0289C6.49294 9.66321 6.2875 9.16722 6.2875 8.65005C6.2875 8.13288 6.49294 7.63689 6.85864 7.27119C7.22433 6.9055 7.72032 6.70005 8.2375 6.70005C8.51212 6.66891 8.79022 6.69612 9.05359 6.77991C9.31696 6.86369 9.55967 7.00217 9.76582 7.18625C9.97197 7.37034 10.1369 7.5959 10.2498 7.84816C10.3628 8.10041 10.4211 8.37367 10.4211 8.65005C10.4211 8.92643 10.3628 9.1997 10.2498 9.45195C10.1369 9.7042 9.97197 9.92976 9.76582 10.1139C9.55967 10.2979 9.31696 10.4364 9.05359 10.5202C8.79022 10.604 8.51212 10.6312 8.2375 10.6001ZM23.6375 23.4251H19.8875V17.3876C19.8875 15.8751 19.35 14.8876 17.9875 14.8876C17.5658 14.8906 17.1552 15.0229 16.811 15.2665C16.4669 15.5101 16.2056 15.8534 16.0625 16.2501C15.9647 16.5439 15.9223 16.8533 15.9375 17.1626V23.4126H12.1875C12.1875 23.4126 12.1875 13.1876 12.1875 12.1626H15.9375V13.7501C16.2782 13.1589 16.7736 12.672 17.3705 12.3416C17.9675 12.0112 18.6432 11.8499 19.325 11.8751C21.825 11.8751 23.6375 13.4876 23.6375 16.9501V23.4251Z" fill="#153B50"/>
                 </svg>
-                <!-- <p>linkedin.com/in/jayden-metcalfe/</p> -->
-                <a href="https://www.linkedin.com/in/jayden-metcalfe/">linkedin.com/in/jayden-metcalfe/</a>
-            </div>
+                <span>linkedin.com/in/jayden-metcalfe/</span>
+            </a>
         </footer>
     
     </body>

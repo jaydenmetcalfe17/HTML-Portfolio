@@ -1,18 +1,23 @@
 body{
-    background: #BEE0FF;
+    background-color: #D6F5FF;
+    background-image: url("../images/website_background.jpg");
+    background-position: bottom center; /* Aligns the bottom of the image with the bottom of the page */
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: center;
 
-    min-width: 625px;
+    /* min-width: 625px; */
+    min-width: 1000px;
 }
 
 header {
-    background: #F5ECBD;
+    background: #BB3030;
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
+    position: fixed;
 }
 
 .body-box{
@@ -23,27 +28,32 @@ header {
 
     min-width: 625px;
     max-width: 1500px;
+    margin-top: 5rem;
 }
 
-#my-name{
-    color: #4F9DE4;
+/* #my-logo{
     font-family: 'Inter', 'sans-serif';
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
 
 .nav-link{
-    color: #153B50;
-    font-family: 'Inter', 'sans-serif';
+    color: #F2EDED;
+    font-family: "Shrikhand", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-footer{
+.nav-link:hover{
+    color: #153B50;
+}
+
+
+footer {
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -51,14 +61,30 @@ footer{
     gap: 0.5rem;
 }
 
-.footer-box{
+.footer-box {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.25rem;
+    text-decoration: none;
+    color: #153B50;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
 }
 
-footer a{
+.footer-box:hover {
+    font-weight: bold;
+}
+
+.footer-box svg {
+    margin-bottom: 0; /* Ensure the icon and text are aligned horizontally */
+}
+
+.footer-box span {
+    font-size: 14px;
+}
+
+footer a {
     text-decoration: none;
     color: black;
 }
@@ -88,8 +114,8 @@ h1{
 
 h2{
     color: #153B50;
-    font-family: 'Inter', 'sans-serif';
-    font-size: 24px;
+    font-family: 'Shrikhand', 'serif';
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

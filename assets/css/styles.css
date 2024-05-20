@@ -1,17 +1,41 @@
 body{
-    background: #BEE0FF;
+    background-color: #D6F5FF;
+    background-image: url("../images/website_background.jpg");
+    background-position: bottom center; /* Aligns the bottom of the image with the bottom of the page */
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    min-width: 625px;
+    /* min-width: 625px;  */
+    min-width: 1000px;
 }
 
 header {
-    background: #F5ECBD;
+    background: #BB3030;
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
+    position: fixed;
+}
+
+.name-pic-box{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.big-name{
+    color: #153B50;
+    font-family: "Shrikhand", serif;
+    font-size: 10rem;
+    text-align: left;
 }
 
 .body-box{
@@ -24,43 +48,30 @@ header {
     max-width: 1500px;
 }
 
-#my-name{
-    color: #4F9DE4;
-    font-family: 'Inter', 'sans-serif';
+/* #my-logo{
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
 
 .nav-link{
-    color: #153B50;
-    font-family: 'Inter', 'sans-serif';
+    color: #F2EDED;
+    font-family: "Shrikhand", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
+.nav-link:hover{
+    color: #153B50;
+}
+
 
 .photo {
     width: 600px;
     height: 400px;
-}
-
-.album {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-}
-
-.column{
-    flex: 50%;
-    
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
 }
 
 .about-me-box{
@@ -71,6 +82,7 @@ header {
     padding: 1.5rem;
     align-items: center;
     gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 h2{
@@ -82,12 +94,24 @@ h2{
     line-height: normal;
 }
 
+#about-me{
+    font-family: 'Inter', 'sans-serif';
+}
+
 .intro-paragraph{
     color: #000;
     font-family: 'Inter', 'sans-serif';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+}
+
+.skills-title{
+    font-family: "Shrikhand", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -100,8 +124,14 @@ h2{
     line-height: normal;
 }
 
+#skills-box{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
 .resume{
-    background: #4F9DE4;
+    background: #BB3030;
     border-radius: 0.25rem;
     border: 0;
     padding: 0.5rem;
@@ -115,6 +145,18 @@ h2{
     flex-direction: row;
     gap: 0.5rem;
     align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+.resume:hover{
+    background: #153B50;
+}
+
+.resume:active{
+    background: #153B50;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
 }
 
 a{
@@ -122,7 +164,7 @@ a{
     color: #FFFFFF
 }
 
-footer{
+footer {
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -130,14 +172,30 @@ footer{
     gap: 0.5rem;
 }
 
-.footer-box{
+.footer-box {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.25rem;
+    text-decoration: none;
+    color: #153B50;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
 }
 
-footer a{
+.footer-box:hover {
+    font-weight: bold;
+}
+
+.footer-box svg {
+    margin-bottom: 0; /* Ensure the icon and text are aligned horizontally */
+}
+
+.footer-box span {
+    font-size: 14px;
+}
+
+footer a {
     text-decoration: none;
     color: black;
 }
@@ -154,3 +212,84 @@ footer a{
         margin-bottom: 0!important;
     }
 }
+
+
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+  }
+
+    @keyframes fade {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+  /* .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  } */
