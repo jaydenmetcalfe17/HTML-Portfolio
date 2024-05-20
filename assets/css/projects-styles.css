@@ -1,3 +1,5 @@
+/* Constants: */
+
 body{
     background-color: #D6F5FF;
     background-image: url("../images/website_background.jpg");
@@ -52,6 +54,9 @@ header {
     color: #153B50;
 }
 
+.nav-link:focus{
+    color: #153B50;
+}
 
 footer {
     padding: 2rem;
@@ -89,6 +94,9 @@ footer a {
     color: black;
 }
 
+
+/* Just for this page */
+
 .projects-box{
     border-radius: 10px;
     background: #B6CCD8;
@@ -101,15 +109,6 @@ footer a {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-}
-
-h1{
-    color: #153B50;
-    font-family: 'Inter', 'sans-serif';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 h2{
