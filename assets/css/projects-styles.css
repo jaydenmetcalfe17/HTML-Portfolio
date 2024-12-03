@@ -137,7 +137,7 @@ h3{
     width: 600px;
 }
 
-.fis-calculator{
+.personal-project{
     display: flex;
     gap: 1.5rem;
 }
@@ -147,7 +147,7 @@ a {
 }
 
 @media (max-width: 950px){
-    .fis-calculator{
+    .personal-project{
         flex-direction: column;
     }
 }
