@@ -1,10 +1,10 @@
 import React from 'react'
-// import {
-//   Route,
-//   createBrowserRouter,
-//   createRoutesFromElements,
-//   RouterProvider
-// } from 'react-router-dom'
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider
+} from 'react-router-dom'
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import MainLayout from './layouts/MainLayout'
