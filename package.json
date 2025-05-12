@@ -1,9 +1,9 @@
 {
-  "name": "react-app",
+  "name": "html-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jaydenmetcalfe17.github.io/HTML-Portfolio/",
+  "homepage": "https://jaydenmetcalfe17.github.io/HTML-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
