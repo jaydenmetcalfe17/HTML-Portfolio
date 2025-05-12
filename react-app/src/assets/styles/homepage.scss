@@ -1,0 +1,132 @@
+$background-color: #D6F5FF;
+$red-color: #BB3030;
+$blue-color: #153B50;
+$white-color: #F2EDED;
+$lightblue-box-color: #B6CCD8;
+
+
+.name-pic-box{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.big-name{
+    color: $blue-color;
+    font-family: "Shrikhand", serif;
+    font-size: 10rem;
+    text-align: left;
+}
+
+.photo {
+    width: 600px;
+    height: 400px;
+}
+
+.about-me-box{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background: $lightblue-box-color;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+#about-me{
+    font-family: 'Inter', 'sans-serif';
+}
+
+.intro-paragraph{
+    color: #000;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.skills-title{
+    font-family: "Shrikhand", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skills-text{
+    color: #000;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#skills-box{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.resume{
+    background: #BB3030;
+    border-radius: 0.25rem;
+    border: 0;
+    padding: 0.5rem;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+.resume:hover{
+    background: #153B50;
+}
+
+.resume:active{
+    background: #153B50;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 1300px){
+    .album{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px){
+    .mb-3{
+        margin-bottom: 0!important;
+    }
+}
+
+.button-block{
+    display: flex;
+
+    a{
+        color: #FFFFFF;
+    }
+}

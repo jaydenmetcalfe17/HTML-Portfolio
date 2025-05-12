@@ -1,0 +1,73 @@
+$background-color: #D6F5FF;
+$red-color: #BB3030;
+$blue-color: #153B50;
+$white-color: #F2EDED;
+$lightblue-box-color: #B6CCD8;
+
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: $background-color;
+    background-image: url("/public/images/website_background.jpg");
+    // background-position: bottom center; /* Aligns the bottom of the image with the bottom of the page */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* min-width: 625px;  */
+    min-width: 1000px;
+}
+
+
+.body-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+
+    min-width: 625px;
+    max-width: 1500px;
+    margin-top: 5rem;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+  }
+
+
+.body-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+
+    min-width: 625px;
+    max-width: 1500px;
+}
+
+h2{
+    color: #153B50;
+    font-family: 'Shrikhand', 'serif';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3{
+    color: #000;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,56 @@
+$background-color: #D6F5FF;
+$red-color: #BB3030;
+$blue-color: #153B50;
+$white-color: #F2EDED;
+$lightblue-box-color: #B6CCD8;
+
+
+.red-box {
+    display: flex;
+    justify-content: center;
+    background-color: $red-color;
+
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+footer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    color: $blue-color;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+
+    &:hover{
+        font-weight: bold;
+    }
+
+    &svg {
+        margin-bottom: 0; /* Ensure the icon and text are aligned horizontally */
+    }
+
+    &span {
+        font-size: 14px;
+    }
+
+    &a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+.footer-box.active {
+    background-color: transparent;
+}

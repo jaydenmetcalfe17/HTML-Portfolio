@@ -1,0 +1,34 @@
+$blue-color: #153B50;
+$red-color: #BB3030;
+$white-color: #F2EDED;
+
+header {
+    background: $red-color;
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+
+    min-width: 1000px;
+}
+
+.nav-link{
+    color: $white-color;
+    font-family: "Shrikhand", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    &:hover{
+        color: $blue-color !important;
+    }
+
+    &:focus{
+        color: $blue-color;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+}

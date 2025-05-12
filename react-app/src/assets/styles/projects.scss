@@ -1,0 +1,54 @@
+$background-color: #D6F5FF;
+$red-color: #BB3030;
+$blue-color: #153B50;
+$white-color: #F2EDED;
+$lightblue-box-color: #B6CCD8;
+
+
+.projects-box{
+    border-radius: 10px;
+    background: #B6CCD8;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.project-pic{
+    height: 400px;
+    width: 600px;
+}
+
+.personal-project{
+    display: flex;
+    gap: 1.5rem;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline
+}
+
+.projects-box p {
+    margin-top: 0;
+    line-height: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+@media (max-width: 950px){
+    .personal-project{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .mb-3{
+        margin-bottom: 0!important;
+    }
+}
