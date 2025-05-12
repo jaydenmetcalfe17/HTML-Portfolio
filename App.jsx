@@ -9,11 +9,11 @@ import {
   BrowserRouter
 } from 'react-router-dom'
 
-import MainLayout from './layouts/MainLayout'
-import HomePage from './pages/HomePage'
-import NotFoundPage from './pages/NotFoundPage'
-import ExperiencePage from './pages/ExperiencePage'
-import ProjectsPage from './pages/ProjectsPage'
+import MainLayout from './react-app/src/layouts/MainLayout'
+import HomePage from './react-app/src/pages/HomePage'
+import NotFoundPage from './react-app/src/pages/NotFoundPage'
+import ExperiencePage from './react-app/src/pages/ExperiencePage'
+import ProjectsPage from './react-app/src/pages/ProjectsPage'
 
 const App = () => {
   return ( 
