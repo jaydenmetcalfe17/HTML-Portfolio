@@ -17,7 +17,7 @@ const ProjectsPage = () => {
                             <p>
                                 As a result, I decided to develop a program to help reduce the time of this waiting game. A user can enter a link to a live-timing.com race results page. <b>Node.js</b> and <b>Express</b> handle the API requests and retrieve data from the third party live timing site. A <b>Python</b> backend spawned via a <b>Node.js</b> subprocess interprets and calculates the raw data. The results are displayed through a dynamic frontend built using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
                             </p>
-                            <p><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/fis-points-calculator">github.com/jaydenmetcalfe17/fis-points-calculator</a></p>
+                            <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/fis-points-calculator">github.com/jaydenmetcalfe17/fis-points-calculator</a></p>
                         </div>
                         {/* <!-- <img class="project-pic" src="/public/images/Italy_carousel.JPG" alt="FIS Points Calculator Screenshot"/> --> */}
                     </div>
@@ -31,7 +31,7 @@ const ProjectsPage = () => {
                             <p>
                                 Written using <b>Javascript, HTML</b> and <b>CSS</b> and launched with <b>Node.js</b> and <b>Express</b>.
                             </p>
-                            <p><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/spot-it">github.com/jaydenmetcalfe17/spot-it</a></p>
+                            <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/spot-it">github.com/jaydenmetcalfe17/spot-it</a></p>
                         </div>
                         {/* <!-- <img class="project-pic" src="/public/images/Italy_carousel.JPG" alt="FIS Points Calculator Screenshot"/> --> */}
                     </div>

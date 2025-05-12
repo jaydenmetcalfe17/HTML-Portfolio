@@ -5,7 +5,8 @@ import {
   createRoutesFromElements,
   RouterProvider, 
   HashRouter,
-  Routes
+  Routes,
+  BrowserRouter
 } from 'react-router-dom'
 
 import MainLayout from './layouts/MainLayout'
@@ -16,7 +17,7 @@ import ProjectsPage from './pages/ProjectsPage'
 
 const App = () => {
   return ( 
-    <HashRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
@@ -25,7 +26,7 @@ const App = () => {
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 export default App

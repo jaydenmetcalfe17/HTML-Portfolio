@@ -16,7 +16,7 @@ import Resume from '../../public/Jayden-Metcalfe-Resume.pdf'
             </div>
             <div className="about-me-box">
                 <div className="headshot-circle">
-                    <img src="/public/images/headshot-resume.jpg" height="200" width="200" alt="photo of myself"/>
+                    <img src={import.meta.env.BASE_URL + "/images/headshot-resume.jpg"} height="200" width="200" alt="photo of myself"/>
                 </div>
                 <div>
                     <div className="about-text">

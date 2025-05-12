@@ -3,14 +3,14 @@ import Slide from "./Slide";
 import '../assets/styles/slideshow.scss'
 
 const slideImages = [
-    '/public/images/Italy_carousel.JPG',
-    '/public/images/pab_picnic_carousel.JPG',
-    '/public/images/Me_red_carousel.JPG',
-    '/public/images/Red_chair_carousel.jpg',
-    '/public/images/PAB_sunset_carousel.jpg',
-    '/public/images/saas_carousel.JPG',
-    '/public/images/stresa_carousel.JPG',
-    '/public/images/sun_peaks_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/Italy_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/pab_picnic_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/Me_red_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/Red_chair_carousel.jpg',
+    import.meta.env.BASE_URL + '/images/PAB_sunset_carousel.jpg',
+    import.meta.env.BASE_URL + '/images/saas_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/stresa_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/sun_peaks_carousel.JPG',
 ];
 
 const Slideshow = () => {

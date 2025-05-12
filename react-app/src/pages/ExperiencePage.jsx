@@ -11,7 +11,7 @@ const ExperiencePage = () => {
                 <div class="mcgill-box">
                     <div class="mcgill-upper">
                         <div class="picture-text">
-                            <img class="logo-pic" src="/public/images/mcgill_logo.jpg" alt="mcgill logo"/>
+                            <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/mcgill_logo.jpg"} alt="mcgill logo"/>
                             <div class="main-text">
                                 <div class="sub-header">
                                     <h3>McGill University</h3>
@@ -123,7 +123,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/nsa_logo.jpg" alt="nsa logo"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/nsa_logo.jpg"} alt="nsa logo"/>
                         <div class="main-text"> 
                             <div class="sub-header">
                                 <h3>National Ski Academy</h3>
@@ -142,7 +142,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/cci_logo.jpg" alt="cci logo"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/cci_logo.jpg"} alt="cci logo"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>Collingwood Collegiate Institute</h3>
@@ -171,7 +171,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/wmsc_logo.png" alt="wmsc logo"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/wmsc_logo.png"} alt="wmsc logo"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>U16 Alpine Ski Racing Coach & Data Analyst</h3>
@@ -192,7 +192,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/mcgill_logo.jpg" alt="mcgill logo"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/mcgill_logo.jpg"} alt="mcgill logo"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>Reinforcement Learning Researcher</h3>
@@ -211,7 +211,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                    <img class="logo-pic" src="/public/images/interac_logo.png" alt="interac logo"/>
+                    <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/interac_logo.png"} alt="interac logo"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>Product Research, Design and Development Intern</h3>
@@ -230,7 +230,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/books.jpg" alt="book stack"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/books.jpg"} alt="book stack"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>Tutor</h3>
@@ -248,7 +248,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/natural_blends_logo_square.png" alt="natural blends logo"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/natural_blends_logo_square.png"} alt="natural blends logo"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>Landscape Maintenance Worker</h3>
@@ -268,7 +268,7 @@ const ExperiencePage = () => {
 
                 <div class="sub-box">
                     <div class="picture-text">
-                        <img class="logo-pic" src="/public/images/ojibway_logo.jpg" alt="ojibway club logo"/>
+                        <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/ojibway_logo.jpg"} alt="ojibway club logo"/>
                         <div class="main-text">
                             <div class="sub-header">
                                 <h3>Grocery Store Assistant Manager</h3>
