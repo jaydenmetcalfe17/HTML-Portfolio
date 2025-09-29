@@ -9,6 +9,23 @@ const ProjectsPage = () => {
                 <h2>Personal Projects</h2>
                 <div class="projects-list">
                     <div class="personal-project">
+                        <div class="tracker-text">
+                            <h3>Training Tracker</h3>
+                            <p>
+                                Developing a full-stack web application using <b>React</b>, <b>PostgreSQL</b>, <b>Node.js</b>, <b>Express</b>, and <b>TypeScript</b> that allows coaches to log and analyze training data with filters and comparative metrics.
+                            </p>
+                            <p>
+                                Athletes have access to personalized dashboards displaying their training session statistics.
+                            </p>
+                            <p>
+                                <b>OAuth</b> is used for secure login procedures and authentication.
+                            </p>
+                            <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/training-tracker">github.com/jaydenmetcalfe17/training-tracker</a></p>
+                        </div>
+                        {/* <!-- <img class="project-pic" src="/public/images/Italy_carousel.JPG" alt="FIS Points Calculator Screenshot"/> --> */}
+                    </div>
+
+                    <div class="personal-project">
                         <div class="fis-text">
                             <h3>FIS Points Calculator</h3>
                             <p>

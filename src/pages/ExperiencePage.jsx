@@ -174,17 +174,17 @@ const ExperiencePage = () => {
                         <img class="logo-pic" src={import.meta.env.BASE_URL + "/images/wmsc_logo.png"} alt="wmsc logo"/>
                         <div class="main-text">
                             <div class="sub-header">
-                                <h3>U16 Alpine Ski Racing Coach & Data Analyst</h3>
+                                <h3>U16 Alpine Ski Racing Coach & Software Engineer</h3>
                                 <p class="years">November 2024 - present</p>
                             </div>
                             <p>Whistler Mountain Ski Club, <i>Whistler, BC</i></p>
                             <ul>
-                                <li>Collaborating with a team of 4 coaches to improve the technical and tactical alpine ski racing skills of 35 athletes</li>
-                                <li>Delivering instruction on mental and physical conditioning, and other essential attributes required to develop elite athletes</li>
-                                <li>Ensuring a high standard of safety, while implementing best practices for injury prevention and risk management during
-                                training sessions</li>
-                                <li>Developing Python programs to analyze athlete training data and compare performances across individuals, within the team,
-                                and across certain subcategories to optimize success</li>
+                                <li>Collaborating with a team of 5 coaches to improve the technical and tactical alpine ski racing skills of 45+ athletes</li>
+                                <li>Developing a full-stack web application with secure OAuth authentication using React, PostgreSQL, Node.js, Express, and
+                                    Python, allowing coaches to log and analyze training data with filters and comparative metrics, and athletes to view
+                                    personalized performance insights</li>
+                                <li>Delivering instruction on mental and physical conditioning while implementing best practices for injury prevention and risk
+                                    management during training sessions</li>
                             </ul>
                         </div>
                     </div>
