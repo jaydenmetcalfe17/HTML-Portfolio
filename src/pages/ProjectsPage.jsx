@@ -1,5 +1,8 @@
 import React from 'react'
 import '../assets/styles/projects.scss'
+import Video from '../components/Video'
+
+import video1 from "../../public/images/SpotItDemo.mp4"
 
 const ProjectsPage = () => {
   return (
@@ -51,6 +54,7 @@ const ProjectsPage = () => {
                             <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/spot-it">github.com/jaydenmetcalfe17/spot-it</a></p>
                         </div>
                         {/* <!-- <img class="project-pic" src="/public/images/Italy_carousel.JPG" alt="FIS Points Calculator Screenshot"/> --> */}
+                        <Video source={video1}/>
                     </div>
                 </div>
             </div>
