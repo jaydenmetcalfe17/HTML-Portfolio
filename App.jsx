@@ -15,6 +15,7 @@ import HomePage from '/src/pages/HomePage'
 import NotFoundPage from '/src/pages/NotFoundPage'
 import ExperiencePage from '/src/pages/ExperiencePage'
 import ProjectsPage from '/src/pages/ProjectsPage'
+import ScrollToTop from './src/components/ScrollToTop'
 
 // const App = () => {
 //   return ( 
@@ -37,7 +38,7 @@ const routes = [
         path: "/",
         element: <> 
                     <MainLayout />
-                    <ScrollRestoration />
+                    <ScrollToTop />
                  </>,
         children: [
            {
