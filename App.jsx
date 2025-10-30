@@ -35,7 +35,10 @@ import ProjectsPage from '/src/pages/ProjectsPage'
 const routes = [
      {
         path: "/",
-        element: <MainLayout />,
+        element: <> 
+                    <MainLayout />
+                    <ScrollRestoration />
+                 </>,
         children: [
            {
              index: true,
