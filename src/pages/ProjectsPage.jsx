@@ -69,12 +69,12 @@ const ProjectsPage = () => {
                 <div class="projects-list">
                     <div class="project" id="clustering">
                         <h3>Clustering and Language Phylogeny</h3>
-                        <p>Built using <b>Python</b> as part of Nautral Language and Data Science class.</p>
+                        <p>Built using <b>Python</b> as part of Natural Language and Data Science class.</p>
                         <p>Used features of the <b>lingpy</b> library to cluster data and reconstruct a tree of cross-linguistic wordform data based on their optimal phylogenies (sound forms of words).</p>
                     </div>
                     <div class="project" id="semantic-parsing">
                         <h3>Language Modeling and Semantic Parsing</h3>
-                        <p>Built using <b>Python</b> as part of Nautral Language and Data Science class.</p>
+                        <p>Built using <b>Python</b> as part of Natural Language and Data Science class.</p>
                         <p>Built an n-gram language model using Twitter data. Created functions that took a bigram and returned top possibilities for the next word given trigram frequencies in the data, sampled possibilities for the next word without repetition when given the bigram, and generated sentences starting with a given prefix using a beam search algorithm. The second part of the assignment involved building an intent classifier and a slot filler for semantic parsing.</p>
                     </div>
                     <div class="project" id="mnist">
