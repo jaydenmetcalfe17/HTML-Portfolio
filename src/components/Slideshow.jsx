@@ -11,12 +11,12 @@ const slideImages = [
     import.meta.env.BASE_URL + '/images/saas_carousel.JPG',
     import.meta.env.BASE_URL + '/images/stresa_carousel.JPG',
     import.meta.env.BASE_URL + '/images/sun_peaks_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/eagle_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/eagle_carousel.jpeg',
     import.meta.env.BASE_URL + '/images/southdakota_carousel.JPG',
     import.meta.env.BASE_URL + '/images/saasfee2025_1_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/saasfee_training_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/saasfee_training_carousel.jpeg',
     import.meta.env.BASE_URL + '/images/whis_group_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/whis_seventh_carousel.JPG',
+    import.meta.env.BASE_URL + '/images/whis_seventh_carousel.jpeg',
 ];
 
 const Slideshow = () => {
