@@ -14,7 +14,7 @@ const slideImages = [
     import.meta.env.BASE_URL + '/images/eagle_carousel.jpeg',
     import.meta.env.BASE_URL + '/images/southdakota_carousel.JPG',
     import.meta.env.BASE_URL + '/images/saasfee2025_1_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/saasfee_training_carousel.jpeg',
+    import.meta.env.BASE_URL + '/images/saasfee_training_carousel.JPEG',
     import.meta.env.BASE_URL + '/images/whis_group_carousel.JPG',
     import.meta.env.BASE_URL + '/images/whis_seventh_carousel.jpeg',
 ];
