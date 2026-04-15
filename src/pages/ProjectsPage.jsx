@@ -85,13 +85,13 @@ const ProjectsPage = () => {
                     <div class="project" id="regression">
                         <h3>Classification of Textual Data</h3>
                         <p>Built using <b>Python</b> as part of an Applied Machine Learning Course</p>
-                        <p>A group project where we implemented logistic regression and multiclass regression algorithms from scratch and compare them to Decision Trees for two distinct textual datasets. Regular regression models such as Ridge and LASSO were also implemented for comparison. The data was preprocessed to remove rare and stopwords then top features were determined for various classes. Further analysis was conducted using <b>sci-kitlearn</b>, <b>numpy</b> and <b>matplotlib</b> features to draw ROC curves, report AUROC values, compare classification accuracies, and test the results as a function of the size of the dataset by controlling the training set size.</p>
+                        <p>A group project where we implemented logistic regression and multiclass regression algorithms from scratch and compare them to Decision Trees for two distinct textual datasets. Regular regression models such as Ridge and LASSO were also implemented for comparison. The data was preprocessed to remove rare and stopwords then top features were determined for various classes. Further analysis was conducted using <b>scikit-learn</b>, <b>numpy</b> and <b>matplotlib</b> features to draw ROC curves, report AUROC values, compare classification accuracies, and test the results as a function of the size of the dataset by controlling the training set size.</p>
                     </div>
 
                     <div class="project" id="knn-dt">
                         <h3>KNN and Decision Tree Implementation</h3>
                         <p>Built using <b>Python</b> as part of an Applied Machine Learning Course</p>
-                        <p>A group project where we implemented KNN and Decision Tree classifiers from scratch and used them to analyze AUROC and accuracy scores for two different datasets. Found the optimal hyperparameters for each classifier using a validation set. Analyzed data using <b>matplotlib</b> graphing methods and various <b>sci-kitlearn</b> tools.</p>
+                        <p>A group project where we implemented KNN and Decision Tree classifiers from scratch and used them to analyze AUROC and accuracy scores for two different datasets. Found the optimal hyperparameters for each classifier using a validation set. Analyzed data using <b>matplotlib</b> graphing methods and various <b>scikit-learn</b> tools.</p>
                     </div>
 
                     <div class="project" id="wordle">
