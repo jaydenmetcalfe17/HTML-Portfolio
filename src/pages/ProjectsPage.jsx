@@ -4,6 +4,7 @@ import Video from '../components/Video'
 
 import video1 from "../../public/images/SpotItDemo.mp4"
 import video2 from "../../public/images/PointsCalculatorDemo.mp4"
+import video3 from "../../public/images/trainingtrackerwalkthrough.mp4"
 
 const ProjectsPage = () => {
   return (
@@ -16,16 +17,20 @@ const ProjectsPage = () => {
                         <div class="tracker-text">
                             <h3>Training Tracker</h3>
                             <p>
-                                Developing a full-stack web application using <b>React</b>, <b>PostgreSQL</b>, <b>Node.js</b>, <b>Express</b>, and <b>TypeScript</b> that allows coaches to log and analyze training data with filters and comparative metrics.
+                               Owned end-to-end development of a multi-service, full-stack training analytics web application built using <b>React</b>, <b>TypeScript</b>, <b>Node.js</b>, <b>Express.js</b>, <b>PostgreSQL</b> and <b>Python</b>.
                             </p>
                             <p>
-                                Athletes have access to personalized dashboards displaying their training session statistics.
+                                Implemented <b>OAuth 2.0</b> authentication and role-based access control for coaches, athletes, and parents.
                             </p>
                             <p>
-                                <b>OAuth</b> is used for secure login procedures and authentication.
+                                Designed and optimized <b>RESTful APIs</b> and SQL queries to support filtering and comparative analytics, improving query efficiency and enabling data-driven adjustments to the training plan.
+                            </p>
+                            <p>
+                                Containerized using <b>Docker</b> and <b>Docker Compose</b> to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an <b>Amazon Web Services (AWS) EC2 instance</b>
                             </p>
                             <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/training-tracker">github.com/jaydenmetcalfe17/training-tracker</a></p>
                         </div>
+                        <Video source={video3}/>
                         {/* <!-- <img class="project-pic" src="/public/images/Italy_carousel.JPG" alt="FIS Points Calculator Screenshot"/> --> */}
                     </div>
 

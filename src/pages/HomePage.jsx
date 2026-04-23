@@ -56,7 +56,7 @@ import Resume from '../../public/Jayden-Metcalfe-Resume.pdf'
                 <div className="gapyear-text">
                     <h2 className="skills-title">More About Me:</h2>
                     <p className="intro-paragraph">
-                        After graduating high school, I took a gap year and competed internationally as a member of the Ontario Ski Team. This involved rigorous year-round training which I approached with great tenacity and dedication in order to achieve my goals in the sport. During my time in various countries, I developed a passion for travelling, photography/videography and journaling. For 2100 days of my life (and counting), I have written a journal entry detailing my day since I love to have a memory of everything that I do.
+                        After graduating high school, I took a gap year and competed internationally as a member of the Ontario Ski Team. This involved rigorous year-round training which I approached with great tenacity and dedication in order to achieve my goals in the sport. During my time in various countries, I developed a passion for travelling, photography/videography and journaling. For 2300 days of my life (and counting), I have written a journal entry detailing my day since I love to have a memory of everything that I do.
                     </p>
                     <p className="intro-paragraph">
                         My other interests include playing squash, weightlifting, baking cookies, Greek and Roman mythology, and doing puzzles. My current "fun in my free time" goal is to become a pool shark. My secret talent is that I am really good at remembering birthdays.
