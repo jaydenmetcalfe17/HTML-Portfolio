@@ -15,12 +15,14 @@ $lightblue-box-color: #B6CCD8;
 
 .name{
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+    gap: 1rem;
 }
 .big-name{
     color: $blue-color;
     font-family: "Shrikhand", serif;
-    font-size: 10rem;
+    // font-size: 10rem;
+    font-size: 5rem;
     text-align: left;
 }
 
