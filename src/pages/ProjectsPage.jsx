@@ -17,16 +17,19 @@ const ProjectsPage = () => {
                         <div class="tracker-text">
                             <h3>Training Tracker</h3>
                             <p>
-                               Owned end-to-end development of a multi-service, full-stack training analytics web application built using <b>React</b>, <b>TypeScript</b>, <b>Node.js</b>, <b>Express.js</b>, <b>PostgreSQL</b> and <b>Python</b>.
+                                <b>Stack: </b>React, TypeScript, Node.js, Express.js, PostgreSQL, Python, REST APIs, OAuth 2.0, Docker, Docker Compose, AWS   
                             </p>
                             <p>
-                                Implemented <b>OAuth 2.0</b> authentication and role-based access control for coaches, athletes, and parents.
+                               Owned end-to-end development of a multi-service, full-stack training analytics web application.
                             </p>
                             <p>
-                                Designed and optimized <b>RESTful APIs</b> and SQL queries to support filtering and comparative analytics, improving query efficiency and enabling data-driven adjustments to the training plan.
+                                Implemented OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents.
                             </p>
                             <p>
-                                Containerized using <b>Docker</b> and <b>Docker Compose</b> to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an <b>Amazon Web Services (AWS) EC2 instance</b>
+                                Designed and optimized RESTful APIs and SQL queries to support filtering and comparative analytics, improving query efficiency and enabling data-driven adjustments to the training plan.
+                            </p>
+                            <p>
+                                Containerized using Docker to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance.
                             </p>
                             <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/training-tracker">github.com/jaydenmetcalfe17/training-tracker</a></p>
                         </div>
@@ -38,10 +41,13 @@ const ProjectsPage = () => {
                         <div class="fis-text">
                             <h3>FIS Points Calculator</h3>
                             <p>
+                                <b>Stack: </b>Node.js, Express.js, Python, REST APIs, HTML/CSS, JavaScript
+                            </p>
+                            <p>
                                 Currently, there is no publicly available way for alpine ski racers to calculate what they “scored” until a third party performs the calculation and uploads the file. This process can take hours. Knowing what you scored can be a make or break factor in how you feel about your performance as an athlete. The better you score, the lower your world ranking may become. 
                             </p>
                             <p>
-                                As a result, I decided to develop a program to help reduce the time of this waiting game. A user can enter a link to a live-timing.com race results page. <b>Node.js</b> and <b>Express</b> handle the API requests and retrieve data from the third party live timing site. A <b>Python</b> backend spawned via a <b>Node.js</b> subprocess interprets and calculates the raw data. The results are displayed through a dynamic frontend built using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
+                                As a result, I decided to develop a program to help reduce the time of this waiting game. A user can enter a link to a live-timing.com race results page. The backend handles the API requests and retrieves data from the third party live timing site. A Python subprocess interprets and calculates the raw data. The results are displayed through a dynamic frontend.
                             </p>
                             <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/fis-points-calculator">github.com/jaydenmetcalfe17/fis-points-calculator</a></p>
                         </div>
@@ -53,10 +59,10 @@ const ProjectsPage = () => {
                         <div class="spot-it-text">
                             <h3>Spot It!</h3>
                             <p>
-                                After being unable to find a valid online version of Spot It, I decided to create my own with a few changed symbols. The computer has a randomized timer. If the player doesn't choose correctly before the countdown finishes, then the computer wins that turn. 
+                                <b>Stack: </b>JavaScript, HTML/CSS, Node.js, Express.js
                             </p>
                             <p>
-                                Written using <b>Javascript, HTML</b> and <b>CSS</b> and launched with <b>Node.js</b> and <b>Express</b>.
+                                After being unable to find a valid online version of Spot It, I decided to create my own with a few changed symbols. The computer has a randomized timer. If the player doesn't choose correctly before the countdown finishes, then the computer wins that turn. 
                             </p>
                             <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/spot-it">github.com/jaydenmetcalfe17/spot-it</a></p>
                         </div>
