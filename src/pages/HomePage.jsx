@@ -22,10 +22,16 @@ import headshotImg from "../../public/images/headshot-resume.jpg"
                 <div>
                     <div className="about-text">
                         <p className="intro-paragraph">
-                            I am a recent graduate from McGill University with a Bachelor of Arts and Science degree. I majored in Cognitive Science with a stream in neuroscience and minor in Computer Science. I have taken advantage of the unique program which allows students to incorporate numerous topics. My background knowledge is diverse as I have taken classes in many fields, including computer science, neuroscience, mathematics, linguistics, and philosophy. As my undergraduate career comes to a close, I find myself drawn to the world of software development as it combines my knack for puzzle-solving and passion for innovation and creativity.
+                            I am a graduate of McGill University with a Bachelor of Arts and Science, majoring in Cognitive Science (Neuroscience stream) with a minor in Computer Science. My academic background spans computer science, neuroscience, linguistics, psychology, mathematics, and philosophy, giving me a multi-disciplinary perspective.
                         </p>
                         <p className="intro-paragraph">
-                            Over the past two years, I have utilized the free access to Udemy provided to McGill students to take courses on languages and frameworks that were not covered by the courses I've taken at McGill. In fact, all the front-end knowledge that I used in my Summer 2023 internship was learned while taking a Udemy web development course! 
+                            Over the past two years, I have been fulfilling my dream of being a “ski bum” by working as a U16 alpine ski racing coach in Whistler, BC, while simultaneously building applications that connect my passion for ski racing with my love of coding. As winter comes to a close, I plan to transition into a full-stack software developer.
+                        </p>
+                        <p>
+                            I enjoy building end-to-end applications that turn complex data and workflows into intuitive, usable products. Through both professional experience and personal projects, I've worked on applications that integrate real-time data, support multiple user roles, and require thoughtful coordination between frontend and backend systems. I enjoy working across the stack, from designing clean UI components to optimizing backend performance and deployment processes.
+                        </p>
+                        <p>
+                            In addition to my formal education, I've taken a self-driven approach to learning modern tools and frameworks. I've built my frontend and full-stack skill set through hands-on projects and independent study. 
                         </p>
                     </div>
                     <div className="button-block">
