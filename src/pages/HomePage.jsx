@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import Slideshow from '../components/Slideshow';
 import '../assets/styles/homepage.scss'
 import Resume from '../../public/Jayden-Metcalfe-Resume.pdf'
+import headshotImg from "../../public/images/headshot-resume.jpg"
 
   const HomePage = () => {
 
@@ -16,7 +17,7 @@ import Resume from '../../public/Jayden-Metcalfe-Resume.pdf'
             </div>
             <div className="about-me-box">
                 <div className="headshot-circle">
-                    <img src={import.meta.env.BASE_URL + "/images/headshot-resume.jpg"} height="376" width="336" alt="photo of myself"/>
+                    <img src={headshotImg} height="376" width="336" alt="photo of myself"/>
                 </div>
                 <div>
                     <div className="about-text">

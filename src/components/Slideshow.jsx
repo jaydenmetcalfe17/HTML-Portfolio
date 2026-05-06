@@ -2,21 +2,35 @@ import { React, useState } from "react";
 import Slide from "./Slide";
 import '../assets/styles/slideshow.scss'
 
+import pabPicnicImg from "../../public/images/pab_picnic_carousel.JPG"
+import meRedImg from "../../public/images/Me_red_carousel.JPG"
+import redChairImg from "../../public/images/Red_chair_carousel.jpg"
+import pabSunsetImg from "../../public/images/PAB_sunset_carousel.jpg"
+import saasFeeImg from "../../public/images/saas_carousel.JPG"
+import stresaImg from "../../public/images/stresa_carousel.JPG"
+import sunPeaksImg from "../../public/images/sun_peaks_carousel.JPG"
+import eagleImg from "../../public/images/eagle_carousel.jpeg"
+import southDakotaImg from "../../public/images/sun_peaks_carousel.JPG"
+import saasFee2025Img from "../../public/images/saasfee2025_1_carousel.JPG"
+import saasFeeTrainingImg from "../../public/images/saasfee_training_carousel.JPEG"
+import whisGroupImg from "../../public/images/whis_group_carousel.JPG"
+import whisSeventhImg from "../../public/images/whis_seventh_carousel.jpeg"
+
+
 const slideImages = [
-    import.meta.env.BASE_URL + '/images/Italy_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/pab_picnic_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/Me_red_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/Red_chair_carousel.jpg',
-    import.meta.env.BASE_URL + '/images/PAB_sunset_carousel.jpg',
-    import.meta.env.BASE_URL + '/images/saas_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/stresa_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/sun_peaks_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/eagle_carousel.jpeg',
-    import.meta.env.BASE_URL + '/images/southdakota_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/saasfee2025_1_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/saasfee_training_carousel.JPEG',
-    import.meta.env.BASE_URL + '/images/whis_group_carousel.JPG',
-    import.meta.env.BASE_URL + '/images/whis_seventh_carousel.jpeg',
+   pabPicnicImg,
+   meRedImg,
+   redChairImg,
+   pabSunsetImg,
+   saasFeeImg,
+   stresaImg,
+   sunPeaksImg,
+   eagleImg,
+   southDakotaImg,
+   saasFee2025Img,
+   saasFeeTrainingImg,
+   whisGroupImg,
+   whisSeventhImg,
 ];
 
 const Slideshow = () => {

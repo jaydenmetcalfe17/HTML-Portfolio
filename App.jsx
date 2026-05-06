@@ -17,21 +17,6 @@ import ExperiencePage from '/src/pages/ExperiencePage'
 import ProjectsPage from '/src/pages/ProjectsPage'
 import ScrollToTop from './src/components/ScrollToTop'
 
-// const App = () => {
-//   return ( 
-//     <BrowserRouter basename={import.meta.env.BASE_URL}>
-//       <Routes>
-//         <Route path="/" element={<MainLayout />}>
-//           <Route index element={<HomePage />} />
-//           <Route path="experience" element={<ExperiencePage />} />
-//           <Route path="projects" element={<ProjectsPage />} />
-//           <Route path="*" element={<NotFoundPage />} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   )
-// }
-// export default App
 
 const routes = [
      {
@@ -62,7 +47,7 @@ const routes = [
     ];
 
 const router = createBrowserRouter(routes, {
-  basename: import.meta.env.BASE_URL,
+  basename: '/',
 });
 
 const App = () => {
