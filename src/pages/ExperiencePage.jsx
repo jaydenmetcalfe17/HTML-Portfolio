@@ -183,17 +183,17 @@ const ExperiencePage = () => {
                         <img class="logo-pic" src={wmscLogo} alt="wmsc logo"/>
                         <div class="main-text">
                             <div class="sub-header">
-                                <h3>U16 Alpine Ski Racing Coach & Software Engineer</h3>
+                                <h3> Full Stack Software Developer & U16 Alpine Ski Racing Coach</h3>
                                 <p class="years">November 2024 - present</p>
                             </div>
                             <p>Whistler Mountain Ski Club, <i>Whistler, BC</i></p>
                             <ul>
-                                <li>Collaborating with a team of 5 coaches to improve the technical and tactical alpine ski racing skills of 45+ athletes</li>
-                                <li>Developing a full-stack web application with secure OAuth authentication using React, PostgreSQL, Node.js, Express, and
-                                    Python, allowing coaches to log and analyze training data with filters and comparative metrics, and athletes to view
-                                    personalized performance insights</li>
-                                <li>Delivering instruction on mental and physical conditioning while implementing best practices for injury prevention and risk
-                                    management during training sessions</li>
+                                <li>Engineered a full-stack analytics web application using React, TypeScript, Node.js, Express.js, PostgreSQL, and Python to track and analyze athletes' training data</li>
+                                <li>Implemented secure OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents</li>
+                                <li>Architected and optimized RESTful APIs and SQL queries to support filtering and comparative analytics of hundreds of data points, improving query performance and enabling data-driven adjustments to team training programs</li>
+                                <li>Containerized using Docker and Docker Compose to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance</li>
+                                <li>Collaborated with users to gather feedback and rapidly deliver feature updates in an iterative development process, often achieving same-day turnaround</li>
+                                <li>Analyzed data to design and lead targeted training sessions for 40+ athletes while coordinating with a team of 6 coaches to optimize program structure and outcomes</li>
                             </ul>
                         </div>
                     </div>
@@ -210,9 +210,10 @@ const ExperiencePage = () => {
                             <p>Britt Lab, <i>Montréal, QC</i></p>
                             <ul>
                                 <li>Worked with a PhD candidate in Dr. Jonathan Britt's lab on a project involving reinforcement learning in mice</li>
-                                <li>Used Python and Excel to analyze data using graphs and Q-learning models</li>
-                                <li>Responsible for modifying Arduino code for each stage of the experiment</li>
-                                <li>Wrote a research paper and designed a poster that was presented at McGill's Cognitive Science Research Day</li>
+                                <li>Automated data processing and reporting using Python and Excel, generating visualizations from thousands of data points to support behavioural research analysis</li>
+                                <li>Implemented Q-learning models to simulate and analyze decision-making behaviour</li>
+                                <li>Debugged and extended Arduino code to scale for multiple experimental stages, each with variables that required fine tuning to maximize the collection of usable data points</li>
+                                <li>Wrote research paper and designed poster that was presented at McGill's Cognitive Science Research Day</li>
                             </ul>
                         </div>
                     </div>
@@ -229,9 +230,9 @@ const ExperiencePage = () => {
                             <p>Interac Corp., <i>Toronto, ON</i></p>
                             <p><b>Largest interbank network in Canada that connects 300+ financial institutions across the nation. Over 90% of Canadians use Interac's e-Transfer and Debit services on a regular basis</b></p>
                             <ul>
-                                <li>Identified a gap in the market and developed an API for an escrow service then presented it to upper management at the company</li>
-                                <li>Upgraded and added features into an MVC architecture for tools used to present new products to major financial institutions</li>
-                                <li>Collaborated with UI/UX designers to implement new product designs using HTML, CSS, Typescript and Angular</li>
+                                <li>Prototyped RESTful API endpoints and a PostgreSQL database schema for an escrow-based e-transfer solution to enhance transaction security and reduce fraud risk, which was demonstrated to senior leadershipy</li>
+                                <li>Collaborated with cross-functional teams to build and update frontend features of an emulator using TypeScript and Angular within an MVC architecture, implementing UI/UX designs from Figma for client-specific product demos</li>
+                                <li>Refactored legacy code to improve maintainability, scalability, and integration with new product features</li>
                             </ul>
                         </div>
                     </div>

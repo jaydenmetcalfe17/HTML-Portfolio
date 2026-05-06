@@ -46,10 +46,25 @@ import headshotImg from "../../public/images/headshot-resume.jpg"
             <div className="about-me-box" id="skills-box">
                 <h2 className="skills-title">Skills:</h2>
                 <p className="skills-text">
-                    <b>Languages:</b> Python, Java, C, Bash (Linux), HTML, CSS, JavaScript, TypeScript, Clojure
+                    <b>Languages:</b> Python, TypeScript, JavaScript, Java, C, Bash, Clojure
                 </p>
                 <p className="skills-text">
-                    <b>Frameworks & Tools:</b> Git, Node.js, Angular, React, PostgreSQL, Arduino, Docker, Kubernetes, Keras/TensorFlow, scikit-learn, Figma
+                    <b>Frontend:</b> React, Angular, HTML, CSS
+                </p>
+                <p className="skills-text">
+                    <b>Backend:</b> Node.js, Express.js, FastAPI, OAuth 2.0
+                </p>
+                <p className="skills-text">
+                    <b>Databases:</b> PostgreSQL
+                </p>
+                <p className="skills-text">
+                    <b>Cloud & DevOps:</b> AWS, Docker, Docker Compose, REST APIs
+                </p>
+                 <p className="skills-text">
+                    <b>Machine Learning & Data:</b> scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib
+                </p>
+                 <p className="skills-text">
+                    <b>Tools:</b> Git, Arduino, Linux
                 </p>
             </div>
 
