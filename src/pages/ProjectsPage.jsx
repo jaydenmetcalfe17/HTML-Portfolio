@@ -17,7 +17,7 @@ const ProjectsPage = () => {
                         <div class="tracker-text">
                             <h3>Training Tracker</h3>
                             <p>
-                                <b>Stack: </b>React, TypeScript, Node.js, Express.js, PostgreSQL, Python, REST APIs, OAuth 2.0, Docker, Docker Compose, AWS   
+                                <b>Stack: </b>React, TypeScript, Node.js, Express.js, PostgreSQL, Python, REST APIs, OAuth 2.0, Docker, Docker Compose, AWS, Jest, Vitest, React Testing Library  
                             </p>
                             <p>
                                Owned end-to-end development of a multi-service, full-stack training analytics web application.
@@ -30,6 +30,9 @@ const ProjectsPage = () => {
                             </p>
                             <p>
                                 Containerized using Docker to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance.
+                            </p>
+                            <p>
+                                Built unit and integration test suites using Jest, Vitest, and React Testing Library, improving application reliability
                             </p>
                             <p className="repo-link"><b>Link to the GitHub repository: </b><a href="https://github.com/jaydenmetcalfe17/training-tracker">github.com/jaydenmetcalfe17/training-tracker</a></p>
                         </div>

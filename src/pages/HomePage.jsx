@@ -60,6 +60,9 @@ import headshotImg from "../../public/images/headshot-resume.jpg"
                 <p className="skills-text">
                     <b>Backend:</b> Node.js, Express.js, FastAPI, OAuth 2.0
                 </p>
+                 <p className="skills-text">
+                    <b>Testing:</b> Jest, Vitest, React Testing Library
+                </p>
                 <p className="skills-text">
                     <b>Databases:</b> PostgreSQL
                 </p>
