@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import FooterBar from '../components/FooterBar'
-import '../assets/styles/main.scss'
+import '../assets/styles/main.css'
 
 const MainLayout = () => {
     return (

@@ -1,30 +1,30 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Slideshow from '../components/Slideshow';
-import '../assets/styles/homepage.scss'
-import Resume from '../../public/Jayden-Metcalfe-Resume.pdf'
-import headshotImg from "../../public/images/headshot-resume.jpg"
+// import '../assets/styles/homepage.css'
+import Resume from '/Jayden-Metcalfe-Resume.pdf'
+import headshotImg from "/images/headshot-resume.jpg"
 
   const HomePage = () => {
 
   return (
-    <div className="body-box">
-            <div className="name-pic-box">
-                <div className="name">
-                    <h1 className="big-name">Jayden</h1>
-                    <h1 className="big-name">Metcalfe</h1>
+    <div className="mb-3 max-md:mb-0">
+            <div className="flex items-center mt-20 w-full p-6">
+                <div className="flex gap-1">
+                    <h1 className="text-primaryBlue font-['Shrikhand'] text-[5rem] text-left">Jayden</h1>
+                    <h1 className="text-primaryBlue font-['Shrikhand'] text-[5rem] text-left">Metcalfe</h1>
                 </div>
             </div>
-            <div className="about-me-box">
+            <div className="flex rounded-lg bg-lightBlueBox p-6 items-center gap-1.5 mt-8">
                 <div className="headshot-circle">
                     <img src={headshotImg} height="376" width="336" alt="photo of myself"/>
                 </div>
                 <div>
                     <div className="about-text">
-                        <p className="intro-paragraph">
+                        <p className="text-black text-base font-normal leading-normal mb-4">
                             I am a graduate of McGill University with a Bachelor of Arts and Science, majoring in Cognitive Science (Neuroscience stream) with a minor in Computer Science. My academic background spans computer science, neuroscience, linguistics, psychology, mathematics, and philosophy, giving me a multi-disciplinary perspective.
                         </p>
-                        <p className="intro-paragraph">
+                        <p className="text-black text-base font-normal leading-normal mb-4">
                             Over the past two years, I have been fulfilling my dream of being a “ski bum” by working as a U16 alpine ski racing coach in Whistler, BC, while simultaneously building applications that connect my passion for ski racing with my love of coding. As winter comes to a close, I plan to transition into a full-stack software developer.
                         </p>
                         <p>
@@ -34,9 +34,9 @@ import headshotImg from "../../public/images/headshot-resume.jpg"
                             In addition to my formal education, I've taken a self-driven approach to learning modern tools and frameworks. I've built my frontend and full-stack skill set through hands-on projects and independent study. 
                         </p>
                     </div>
-                    <div className="button-block">
+                    <div className="flex">
                         <a 
-                            className="resume"
+                            className="bg-primaryRed hover:bg-primaryBlue active:bg-primaryBlue rounded-sm border-0 p-2 text-base font-bold leading-normal flex flex-row items-center gap-2 cursor-pointer shadow-[0_5px_#999] active:shadow-[0_3px_#666] active:translate-y-0.5 text-[#FFFFFF] no-underline"
                             href={Resume}
                             download="Jayden-Metcalfe-Resume"
                         >
@@ -49,44 +49,44 @@ import headshotImg from "../../public/images/headshot-resume.jpg"
                 </div>
             </div>
 
-            <div className="about-me-box" id="skills-box">
-                <h2 className="skills-title">Skills:</h2>
-                <p className="skills-text">
+            <div className="flex flex-col items-start mt-20 w-full p-6 gap-0 bg-lightBlueBox" id="skills-box">
+                <h2 className="font-['Shrikhand'] text-2xl font-bold leading-normal">Skills:</h2>
+                <p className="text-black text-base font-normal leading-normal">
                     <b>Languages:</b> Python, TypeScript, JavaScript, Java, C, Bash, Clojure
                 </p>
-                <p className="skills-text">
-                    <b>Frontend:</b> React, Angular, HTML, CSS
+                <p className="text-black text-base font-normal leading-normal">
+                    <b>Frontend:</b> React, Angular, HTML, CSS, Sass, TailwindCSS, Bootstrap
                 </p>
-                <p className="skills-text">
+                <p className="text-black text-base font-normal leading-normal">
                     <b>Backend:</b> Node.js, Express.js, FastAPI, OAuth 2.0
                 </p>
-                 <p className="skills-text">
+                 <p className="text-black text-base font-normal leading-normal">
                     <b>Testing:</b> Jest, Vitest, React Testing Library
                 </p>
-                <p className="skills-text">
+                <p className="text-black text-base font-normal leading-normal">
                     <b>Databases:</b> PostgreSQL
                 </p>
-                <p className="skills-text">
+                <p className="text-black text-base font-normal leading-normal">
                     <b>Cloud & DevOps:</b> AWS, Docker, Docker Compose, REST APIs
                 </p>
-                 <p className="skills-text">
+                 <p className="text-black text-base font-normal leading-normal">
                     <b>Machine Learning & Data:</b> scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib
                 </p>
-                 <p className="skills-text">
+                 <p className="text-black text-base font-normal leading-normal">
                     <b>Tools:</b> Git, Arduino, Linux
                 </p>
             </div>
 
-            <div className="about-me-box">
+            <div className="flex items-start mt-20 w-full p-6 gap-2 bg-lightBlueBox">
                 <div className="gapyear-text">
-                    <h2 className="skills-title">More About Me:</h2>
-                    <p className="intro-paragraph">
+                    <h2 className="font-['Shrikhand'] text-2xl font-bold leading-normal">More About Me:</h2>
+                    <p className="text-black text-base font-normal leading-normal mb-4">
                         After graduating high school, I took a gap year and competed internationally as a member of the Ontario Ski Team. This involved rigorous year-round training which I approached with great tenacity and dedication in order to achieve my goals in the sport. During my time in various countries, I developed a passion for travelling, photography/videography and journaling. For 2300 days of my life (and counting), I have written a journal entry detailing my day since I love to have a memory of everything that I do.
                     </p>
-                    <p className="intro-paragraph">
+                    <p className="text-black text-base font-normal leading-normal mb-4">
                         My other interests include playing squash, weightlifting, baking cookies, Greek and Roman mythology, and doing puzzles. My current "fun in my free time" goal is to become a pool shark. My secret talent is that I am really good at remembering birthdays.
                     </p>
-                    <p className="intro-paragraph">
+                    <p className="text-black text-base font-normal leading-normal mb-4">
                         From a young age, I've wanted to move out west and become a "ski bum" for a season. In order to accomplish my goal, I moved to Whistler, BC to work as an alpine ski racing coach with the U16 team.
                     </p>
                 </div>

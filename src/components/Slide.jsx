@@ -1,10 +1,10 @@
 import React from 'react'
-import '../assets/styles/slideshow.scss'
+import '../assets/styles/slideshow.css'
 
 const Slide = ({image, visible}) => {
   return (
     <div
-      className="slides fade"
+      // className="fade"
       style={{ display: visible ? 'block' : 'none' }}
     >
       <img src={image} className="photo"/>

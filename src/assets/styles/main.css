@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #D6F5FF;
+  --color-primaryWhite: #F2EDED;
+  --color-primaryBlue: #153B50;
+  --color-primaryRed: #BB3030;
+  --color-lightBlueBox: #B6CCD8;
+}
+
+/* global app styles */
+
+#root {
+  @apply h-full w-full m-0 p-0;
+}
+
+body {
+  @apply bg-background;
+  background-image: url("/images/website_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+
+  @apply flex flex-col items-center min-w-250;
+}
+
+/* reusable layout wrappers */
+
+.page-content {
+  @apply flex justify-center;
+}
+
+.body-box {
+  @apply flex flex-col gap-8 p-4 min-w-156.25 max-w-375 mt-20;
+}
+
+/* reusable typography */
+
+/* h2 */
+.page-title { 
+  @apply text-primaryBlue font-['Shrikhand'] text-[40px] font-bold;
+}
+
+/* h3 */
+.section-title {
+  @apply text-black font-['Inter'] text-[18px] font-bold;
+}
+
+/* reusable cards */
+
+.content-box {
+  @apply rounded-[10px] bg-lightBlueBox p-6;
+}
+
+
+
+
+/* h2 {
+    color: var(--blue-color);
+    font-family: "Shrikhand", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */

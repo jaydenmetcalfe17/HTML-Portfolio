@@ -1,90 +1,89 @@
-$background-color: #D6F5FF;
-$red-color: #BB3030;
-$blue-color: #153B50;
-$white-color: #F2EDED;
-$lightblue-box-color: #B6CCD8;
+@import "tailwindcss";
+/* 
+:root {
+    --background-color: #D6F5FF;
+    --red-color: #BB3030;
+    --blue-color: #153B50;
+    --white-color: #F2EDED;
+    --lightblue-box-color: #B6CCD8;
+} */
 
-
-.name-pic-box{
+/* .name-pic-box {
     display: flex;
     margin-top: 5rem;
     align-items: center;
     width: 100%;
     padding: 1.5rem;
-}
+} */
 
-.name{
+/* .name {
     display: flex;
-    // flex-direction: column;
     gap: 1rem;
-}
-.big-name{
-    color: $blue-color;
+} */
+
+/* .big-name {
+    color: var(--blue-color);
     font-family: "Shrikhand", serif;
-    // font-size: 10rem;
     font-size: 5rem;
     text-align: left;
-}
+} */
 
-.photo {
+/* unused i think */
+/* .photo {
     width: 600px;
     height: 400px;
-}
+} */
 
-.about-me-box{
+/* .about-me-box {
     display: flex;
     flex-direction: row;
     border-radius: 10px;
-    background: $lightblue-box-color;
+    background: var(--lightblue-box-color);
     padding: 1.5rem;
     align-items: center;
     gap: 1.5rem;
     margin-top: 2rem;
-}
+} */
 
-#about-me{
-    font-family: 'Inter', 'sans-serif';
-}
-
-.intro-paragraph{
+/* .intro-paragraph {
     color: #000;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 1rem;
-}
+} */
 
-.skills-title{
+/* .skills-title {
     font-family: "Shrikhand", serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
 
-.skills-text{
+/* .skills-text {
     color: #000;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
 
-#skills-box{
+/* #skills-box {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
-}
+} */
 
-.resume{
-    background: #BB3030;
+/* .resume {
+    background: var(--red-color);
     border-radius: 0.25rem;
     border: 0;
     padding: 0.5rem;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -98,37 +97,36 @@ $lightblue-box-color: #B6CCD8;
     box-shadow: 0 5px #999;
 }
 
-.resume:hover{
-    background: #153B50;
+.resume:hover {
+    background: var(--blue-color);
 }
 
-.resume:active{
-    background: #153B50;
+.resume:active {
+    background: var(--blue-color);
     box-shadow: 0 3px #666;
     transform: translateY(2px);
-}
+} */
 
-a{
+/* a {
     text-decoration: none;
-}
+} */
 
-@media (max-width: 1300px){
-    .album{
+/* @media (max-width: 1300px) {
+    .album {
         flex-direction: column;
     }
-
 }
 
-@media (max-width: 768px){
-    .mb-3{
-        margin-bottom: 0!important;
+@media (max-width: 768px) {
+    .mb-3 {
+        margin-bottom: 0 !important;
     }
-}
+} */
 
-.button-block{
+/* .button-block {
     display: flex;
+} */
 
-    a{
-        color: #FFFFFF;
-    }
-}
+/* .button-block a {
+    color: #FFFFFF;
+} */

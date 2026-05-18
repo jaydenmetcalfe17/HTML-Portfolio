@@ -1,140 +1,143 @@
-$background-color: #D6F5FF;
-$red-color: #BB3030;
-$blue-color: #153B50;
-$white-color: #F2EDED;
-$lightblue-box-color: #B6CCD8;
+@import "tailwindcss";
 
+/* :root {
+    --background-color: #D6F5FF;
+    --red-color: #BB3030;
+    --blue-color: #153B50;
+    --white-color: #F2EDED;
+    --lightblue-box-color: #B6CCD8;
+} */
 
-.big-box{
+/* .big-box {
     border-radius: 10px;
-    background: #B6CCD8;
+    background: var(--lightblue-box-color);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
-}
+} */
 
- p{
+/* p {
     color: #000;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
     margin-bottom: 0.5rem;
-}
+} */
 
-.mcgill-box{
+/* .mcgill-box {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
+} */
 
-.mcgill-upper{
+/* .mcgill-upper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+} */
 
-li {
+/* ul {
     color: #000;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-}
+} */
 
-.years{
+/* .years {
     color: #000;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
 
-.mcgill-courses{
+/* .mcgill-courses {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-}
+} */
 
-.year-courses{
+/* .year-courses {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
+} */
 
-.semester{
+/* .semester {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-}
+} */
 
-.fall-title{
+/* .fall-title {
     color: #AE2306;
 }
 
-.winter-title{
+.winter-title {
     color: #04269A;
-}
+} */
 
-h4{
+/* h4 {
     color: #FFF;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
-}
+} */
 
-h5{
+/* h5 {
     color: #000;
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
-}
+} */
 
-.sub-box{
+/* .sub-box {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     justify-content: space-between;
-}
+} */
 
-.logo-pic{
+/* .logo-pic {
     height: 150px;
     width: 150px;
-}
+} */
 
-.picture-text{
+/* .picture-text {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     width: 100%;
-}
+} */
 
-.sub-header{
+/* .sub-header {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.extracurriculars-box{
+/* .extracurriculars-box {
     display: flex;
     flex-direction: column;
-}
+} */
 
-.main-text{
+/* .main-text {
     width: 100%;
-}
+} */
 
-@media (max-width: 768px){
-    .mb-3{
-        margin-bottom: 0!important;
+/* @media (max-width: 768px) {
+    .mb-3 {
+        margin-bottom: 0 !important;
     }
-}
+} */
