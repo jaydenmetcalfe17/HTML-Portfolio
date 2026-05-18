@@ -38,7 +38,7 @@ body {
 
 /* h2 */
 .page-title { 
-  @apply text-primaryBlue font-['Shrikhand'] text-[40px] font-bold;
+  @apply text-primaryBlue font-['Shrikhand'] font-bold text-[40px];
 }
 
 /* h3 */
