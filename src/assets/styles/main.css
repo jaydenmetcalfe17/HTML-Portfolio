@@ -21,7 +21,7 @@ body {
   background-size: cover;
   font-family: "Inter", sans-serif;
 
-  @apply flex flex-col items-center min-w-250;
+  @apply flex flex-col items-center w-full min-w-0;
 }
 
 /* reusable layout wrappers */
@@ -31,7 +31,7 @@ body {
 }
 
 .body-box {
-  @apply flex flex-col gap-8 p-4 min-w-156.25 max-w-375 mt-20;
+  @apply flex flex-col gap-8 p-4 w-full max-w-6xl mt-20;
 }
 
 /* reusable typography */
