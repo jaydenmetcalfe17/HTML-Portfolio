@@ -1,23 +1,33 @@
 import React from 'react'
+import Tilt from 'react-parallax-tilt';
 
 const InfoBox = ({title, media, tagline, bullets}) => {
   
-  
-  
-  
     return (
-        <div className="relative z-0 rounded-4xl border border-border bg-white p-5 shadow-[0_8px_32px_rgba(0,0,0,0.12),0_20px_60px_rgba(0,0,0,0.15),0_4px_12px_rgba(0,0,0,0.1)]">
-            
-            <div className="flex flex-col items-center">
-                {media}
+        <Tilt
+            tiltMaxAngleX={8}
+            tiltMaxAngleY={8}
+            perspective={1200}
+            transitionSpeed={1500}
+            glareEnable={true}
+            glareMaxOpacity={0.15}
+            scale={0.98}
+            tiltReverse={true}
+        >
+            <div className="w-full h-full relative z-0 rounded-4xl bg-lightBlueBox p-5 shadow-[0_8px_24px_rgba(0,0,0,0.10),0_4px_12px_rgba(0,0,0,0.08)]">
+                
+                <div className="flex flex-col items-center mb-6">
+                    {media}
+                </div>
+                <div className="flex flex-col gap-2">
+                    <h2 className="font-bold text-xl text-primaryBlue">{title}</h2>
+                    {tagline}
+                </div>
+                <div className="flex p-5">
+                    {bullets}
+                </div>
             </div>
-            <div>
-                <h2 className="font-bold text-base">{title}</h2>
-                 {tagline}
-            </div>
-            <p>{bullets}</p>
-            
-        </div>
+        </Tilt>
         
     )}
 

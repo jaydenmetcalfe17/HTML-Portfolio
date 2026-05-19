@@ -13,31 +13,32 @@ import alpineOntarioLogo from "/images/aoa_logo.png"
 import mcGillAthleticsLogo from "/images/mcgill_athletics_logo.png"
 import Tabs from '../components/Tabs'
 import InfoBox from '../components/InfoBox'
+import { IoCalendarClearOutline } from "react-icons/io5";
 
 const ExperiencePage = () => {
 
     const tabs = [
         {id: "tab1", label: "Work", content: 
             (
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-8">
                 <InfoBox 
                     title={"Full-Stack Software Developer & U16 Alpine Ski Racing Coach"} 
                     media={
-                            <img className="h-37.5 w-37.5" src={wmscLogo} alt="WMSC logo"/>
+                            <img className="h-30 w-30" src={wmscLogo} alt="WMSC logo"/>
                         } 
                     tagline = {
-                        <div className="flex justify-between">
-                            <h3 className="font-light">Whistler Mountain Ski Club, <i>Whistler, BC</i></h3>
-                            <h2>November 2024 - present</h2>
+                        <div className="flex flex-col">
+                            <h3>Whistler Mountain Ski Club, <i>Whistler, BC</i></h3>
+                            <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />November 2024 - present</h2>
                         </div>
                     } 
                     bullets={
                         <ul className="list-disc">  
-                            <li>Engineered a full-stack analytics web application using React, TypeScript, Node.js, Express.js, PostgreSQL, and Python to track and analyze athletes' training data</li>
-                            <li>Implemented secure OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents</li>
-                            <li>Architected and optimized RESTful APIs and SQL queries to support filtering and comparative analytics of hundreds of data points, improving query performance and enabling data-driven adjustments to team training programs</li>
-                            <li>Containerized using Docker and Docker Compose to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance</li>
-                            <li>Collaborated with users to gather feedback and rapidly deliver feature updates in an iterative development process, often achieving same-day turnaround</li>
+                            <li className="mb-2">Engineered a full-stack analytics web application using React, TypeScript, Node.js, Express.js, PostgreSQL, and Python to track and analyze athletes' training data</li>
+                            <li className="mb-2">Implemented secure OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents</li>
+                            <li className="mb-2">Architected and optimized RESTful APIs and SQL queries to support filtering and comparative analytics of hundreds of data points, improving query performance and enabling data-driven adjustments to team training programs</li>
+                            <li className="mb-2">Containerized using Docker and Docker Compose to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance</li>
+                            <li className="mb-2">Collaborated with users to gather feedback and rapidly deliver feature updates in an iterative development process, often achieving same-day turnaround</li>
                             <li>Analyzed data to design and lead targeted training sessions for 40+ athletes while coordinating with a team of 6 coaches to optimize program structure and outcomes</li>
                         </ul>
                     }
@@ -45,40 +46,40 @@ const ExperiencePage = () => {
                 <InfoBox 
                     title={"Reinforcement Learning Researcher"} 
                     media={
-                            <img className="h-37.5 w-37.5" src={mcgillLogo} alt="McGill logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={mcgillLogo} alt="McGill logo"/>
                         }
                     tagline = {
-                        <div className="flex justify-between">
-                            <h3 className="font-light">The Britt Lab, <i>Montréal, QC</i></h3>
-                            <h2>August 2023 - May 2024</h2>
+                        <div className="flex flex-col">
+                            <h3>The Britt Lab, <i>Montréal, QC</i></h3>
+                            <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />August 2023 - May 2024</h2>
                         </div>
                     } 
                     bullets={
                         <ul className="list-disc"> 
-                            <li>Worked with a PhD candidate in Dr. Jonathan Britt's lab on a project involving reinforcement learning in mice</li>
-                            <li>Automated data processing and reporting using Python and Excel, generating visualizations from thousands of data points to support behavioural research analysis</li>
-                            <li>Implemented Q-learning models to simulate and analyze decision-making behaviour</li>
-                            <li>Debugged and extended Arduino code to scale for multiple experimental stages, each with variables that required fine tuning to maximize the collection of usable data points</li>
-                            <li>Wrote research paper and designed poster that was presented at McGill's Cognitive Science Research Day</li>
+                            <li className="mb-2">Worked with a PhD candidate in Dr. Jonathan Britt's lab on a project involving reinforcement learning in mice</li>
+                            <li className="mb-2">Automated data processing and reporting using Python and Excel, generating visualizations from thousands of data points to support behavioural research analysis</li>
+                            <li className="mb-2">Implemented Q-learning models to simulate and analyze decision-making behaviour</li>
+                            <li className="mb-2">Debugged and extended Arduino code to scale for multiple experimental stages, each with variables that required fine tuning to maximize the collection of usable data points</li>
+                            <li className="mb-2">Wrote research paper and designed poster that was presented at McGill's Cognitive Science Research Day</li>
                         </ul>
                     }
                 />
                 <InfoBox // where to put job title??? Product Research, Design and Development Intern
                     title={"Product Research, Design and Development Intern"} 
                     media={
-                            <img className="h-37.5 w-37.5" src={interacLogo} alt="Interac logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={interacLogo} alt="Interac logo"/>
                         } 
                     tagline = {
-                        <div className="flex justify-between">
-                            <h3 className="font-light">Interac Corp., <i>Toronto, ON</i></h3>
-                            <h2>May - August 2023</h2>
+                        <div className="flex flex-col">
+                            <h3>Interac Corp., <i>Toronto, ON</i></h3>
+                            <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />May - August 2023</h2>
                         </div>
                     } 
                     bullets={
                         <ul className="list-disc"> 
-                            <li>Prototyped RESTful API endpoints and a PostgreSQL database schema for an escrow-based e-transfer solution to enhance transaction security and reduce fraud risk, which was demonstrated to senior leadershipy</li>
-                            <li>Collaborated with cross-functional teams to build and update frontend features of an emulator using TypeScript and Angular within an MVC architecture, implementing UI/UX designs from Figma for client-specific product demos</li>
-                            <li>Refactored legacy code to improve maintainability, scalability, and integration with new product features</li>
+                            <li className="mb-2">Prototyped RESTful API endpoints and a PostgreSQL database schema for an escrow-based e-transfer solution to enhance transaction security and reduce fraud risk, which was demonstrated to senior leadershipy</li>
+                            <li className="mb-2">Collaborated with cross-functional teams to build and update frontend features of an emulator using TypeScript and Angular within an MVC architecture, implementing UI/UX designs from Figma for client-specific product demos</li>
+                            <li className="mb-2">Refactored legacy code to improve maintainability, scalability, and integration with new product features</li>
                         </ul>
                     }
                 />
@@ -86,19 +87,19 @@ const ExperiencePage = () => {
                     // where to put job title???  Landscape Maintenance Worker
                     title={"Tutor"} 
                     media={
-                            <img className="h-37.5 w-37.5" src={booksLogo} alt="Cartoon stack of books"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={booksLogo} alt="Cartoon stack of books"/>
                         } 
                     tagline = {
-                        <div className="flex justify-between">
-                            <h3 className="font-light">Self-Employed, <i>Collingwood, ON</i></h3>
-                            <h2>September 2019 - December 2022</h2> 
+                        <div className="flex flex-col">
+                            <h3>Self-Employed, <i>Collingwood, ON</i></h3>
+                            <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2019 - December 2022</h2> 
                         </div>
                     } 
                     bullets={
                         <ul className="list-disc"> 
-                            <li>Tutored 20+ elementary and high school aged students in a variety of subjects (i.e. math, English, science, social studies) over the years</li>
-                            <li>Worked through practice problems, reviewed content for tests, strengthened confidence</li>
-                            <li>Improved test grades by avg. 15%</li>
+                            <li className="mb-2">Tutored 20+ elementary and high school aged students in a variety of subjects (i.e. math, English, science, social studies) over the years</li>
+                            <li className="mb-2">Worked through practice problems, reviewed content for tests, strengthened confidence</li>
+                            <li className="mb-2">Improved test grades by avg. 15%</li>
                         </ul>
                     }
                 />
@@ -108,41 +109,41 @@ const ExperiencePage = () => {
                             <img className="h-37.5 w-37.5 rounded-xl" src={nbLogo} alt="Natural Blends logo"/>
                         }
                     tagline = {
-                        <div className="flex justify-between">
-                            <h3 className="font-light">Natural Blends, <i>Collingwood, ON</i></h3>
-                            <h2>April 2020 - September 2022</h2>
+                        <div className="flex flex-col">
+                            <h3>Natural Blends, <i>Collingwood, ON</i></h3>
+                            <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />April 2020 - September 2022</h2>
                         </div>
                     } 
                     bullets={
                         <ul className="list-disc"> 
-                            <li>Worked 50+ hour weeks to complete routine yard maintenance at 40+ properties in the Southern Georgian Bay area</li>
-                            <li>Performed spring clean up of property to prepare for warmer months</li>
-                            <li>Maintained garden appearance by spreading soil and mulch, cutting edges around beds and planting over 2000+ trees and plants each spring</li>
-                            <li>Assisted with the design and preparation of seasonal planter boxes</li>
-                            <li>Precisely measured and cut stone to 1/16th of an inch during construction of local park to be completed on a deadline</li>
+                            <li className="mb-2">Worked 50+ hour weeks to complete routine yard maintenance at 40+ properties in the Southern Georgian Bay area</li>
+                            <li className="mb-2">Performed spring clean up of property to prepare for warmer months</li>
+                            <li className="mb-2">Maintained garden appearance by spreading soil and mulch, cutting edges around beds and planting over 2000+ trees and plants each spring</li>
+                            <li className="mb-2">Assisted with the design and preparation of seasonal planter boxes</li>
+                            <li className="mb-2">Precisely measured and cut stone to 1/16th of an inch during construction of local park to be completed on a deadline</li>
                         </ul>
                     }
                 />
                 <InfoBox 
                     title={"Grocery Store Assistant Manager"} 
                     media={
-                            <img className="h-37.5 w-37.5" src={ojibwayLogo} alt="Ojibway logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={ojibwayLogo} alt="Ojibway logo"/>
                         }
                     tagline = {
-                        <div className="flex justify-between">
-                            <h3 className="font-light">Ojibway Club, <i>Pointe au Baril, ON</i></h3>
-                            <h2>June 2020 - August 2021</h2>
+                        <div className="flex flex-col">
+                            <h3>Ojibway Club, <i>Pointe au Baril, ON</i></h3>
+                            <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />June 2020 - August 2021</h2>
                         </div>
                     } 
                     bullets={
                         <ul className="list-disc"> 
-                            <li>Responsible for the daily operations of a seasonal grocery store serving the Pointe au Baril community that brought in approx. $4000 a day</li>
-                            <li>Communicated with retailers to place weekly orders to ensure shelves were stocked</li>
-                            <li>Assisted with training and instructing a team of 8 employees</li>
-                            <li>Followed proper fire safety protocols to fill boats with gas</li>
-                            <li>Actively engaged with members and guests</li>
-                            <li>Quickly adapted to new COVID-19 safety measures to maintain full scale store operations with additional daily tasks</li>
-                            <li>Proficient with Lightspeed POS</li>
+                            <li className="mb-2">Responsible for the daily operations of a seasonal grocery store serving the Pointe au Baril community that brought in approx. $4000 a day</li>
+                            <li className="mb-2">Communicated with retailers to place weekly orders to ensure shelves were stocked</li>
+                            <li className="mb-2">Assisted with training and instructing a team of 8 employees</li>
+                            <li className="mb-2">Followed proper fire safety protocols to fill boats with gas</li>
+                            <li className="mb-2">Actively engaged with members and guests</li>
+                            <li className="mb-2">Quickly adapted to new COVID-19 safety measures to maintain full scale store operations with additional daily tasks</li>
+                            <li className="mb-2">Proficient with Lightspeed POS</li>
                         </ul>
                     }
                 />
@@ -151,109 +152,109 @@ const ExperiencePage = () => {
         },
         {id: "tab2", label: "Education", content: 
             (   
-                <div className="grid grid-cols-1 gap-4">
+                <div className="grid grid-cols-1 gap-8">
                     <InfoBox 
                         title={"McGill University"} 
                         media={
-                            <img className="h-37.5 w-37.5" src={mcgillLogo} alt="McGill logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={mcgillLogo} alt="McGill logo"/>
                         } 
                         tagline = {
-                            <div className="flex justify-between">
-                                <h3 className="font-light"><i>Montréal, QC</i></h3>
-                                <h2>2020-2024</h2>
+                            <div className="flex flex-col">
+                                <h3><i>Montréal, QC</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />2020-2024</h2>
                             </div>
                         } 
                         bullets={
-                            <div>
-                                <p>Bachelor of Arts and Science in Cognitive Science</p>
-                                <p>Computer Science minor</p>
+                            <ul className="list-disc">
+                                <li className="mb-2">Bachelor of Arts and Science in Cognitive Science</li>
+                                <li className="mb-2">Computer Science minor</li>
                                 <p>Make a component for courses with links for each</p>
-                            </div>
+                            </ul>
                         }
                     />
                     <InfoBox 
                         title={"National Ski Academy"} 
                         media={
-                            <img className="h-37.5 w-37.5" src={nsaLogo} alt="NSA logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={nsaLogo} alt="NSA logo"/>
                         } 
                         tagline = {
-                            <div className="flex justify-between">
-                                <h3 className="font-light"><i>Collingwood, ON</i></h3>
-                                <h2>2017-2019</h2>
+                            <div className="flex flex-col">
+                                <h3><i>Collingwood, ON</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />2017-2019</h2>
                             </div>
                         } 
                         bullets={
                             <ul className="list-disc"> 
-                                <li>Canada's only elite level ski academy</li>
-                                <li>Trained and competed at an international level</li>
-                                <li>Dedicated 40+ hours per week to athletics while balancing a full academic course load</li>
-                                <li>Awarded for achieving the Best Racing Results and Highest Academic Average in both years at the school</li>
+                                <li className="mb-2">Canada's only elite level ski academy</li>
+                                <li className="mb-2">Trained and competed at an international level</li>
+                                <li className="mb-2">Dedicated 40+ hours per week to athletics while balancing a full academic course load</li>
+                                <li className="mb-2">Awarded for achieving the Best Racing Results and Highest Academic Average in both years at the school</li>
                             </ul>   
                         }
                     />
                 </div>
             )
         },
-        {id: "tab3", label: "Extracurriculars", content: 
+        {id: "tab3", label: "Extra", content: 
             (   
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 8">
                     <InfoBox 
                         title={"McGill Varsity Ski Team"} 
                         media={
-                            <img className="h-37.5 w-37.5" src={mcGillAthleticsLogo} alt="McGill Athletics logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={mcGillAthleticsLogo} alt="McGill Athletics logo"/>
                         }  
                         tagline = {
-                            <div className="flex justify-between">
-                                <h3 className="font-light"><i>Montréal, QC</i></h3>
-                                <h2>September 2020 - May 2023</h2>
+                            <div className="flex flex-col">
+                                <h3><i>Montréal, QC</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2020 - May 2023</h2>
                             </div>
                         } 
                         bullets={
-                            <ul>
-                                <li>Team Captain and Varsity Council Team Representative</li>
-                                <li>Balanced a full university course load while training or competing five days a week</li> 
+                            <ul className="list-disc">
+                                <li className="mb-2">Team Captain and Varsity Council Team Representative</li>
+                                <li className="mb-2">Balanced a full university course load while training or competing five days a week</li> 
                             </ul>
                         }
                     />
                     <InfoBox 
                         title={"TEAM Mentor"} 
                         media={
-                            <img className="h-37.5 w-37.5" src={mcgillLogo} alt="McGill logo"/>
+                            <img className="h-37.5 w-37.5 rounded-xl" src={mcgillLogo} alt="McGill logo"/>
                         }  
                         tagline = {
-                            <div className="flex justify-between">
-                                <h3 className="font-light"><i>Montréal, QC</i></h3>
-                                <h2>September 2022 - December 2022</h2>
+                            <div className="flex flex-col">
+                                <h3><i>Montréal, QC</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2022 - December 2022</h2>
                             </div> 
                         } 
                         bullets={
                             <ul className="list-disc"> 
-                                <li>Received the Tomlinson Engagement Award for Mentoring for PHYS102: Electromagnetism &amp; Optics</li>
-                                <li>Led a group of 15 students in weekly tutorials</li>
-                                <li>Summarized essential concepts and completed practice problems</li>
-                                <li>Encouraged collaboration among peers</li>
-                                <li>Responded to emails with further questions</li>
+                                <li className="mb-2">Received the Tomlinson Engagement Award for Mentoring for PHYS102: Electromagnetism &amp; Optics</li>
+                                <li className="mb-2">Led a group of 15 students in weekly tutorials</li>
+                                <li className="mb-2">Summarized essential concepts and completed practice problems</li>
+                                <li className="mb-2">Encouraged collaboration among peers</li>
+                                <li className="mb-2">Responded to emails with further questions</li>
                             </ul>   
                         }
                     />
                     <InfoBox 
                         title={"Ontario Ski Team Athlete"} 
                         media={
-                            <img className="h-37.5 w-37.5" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
+                            <img className="h-37.5 w-37.5 rounded-xl" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
                         } 
                         tagline = {
-                            <div className="flex justify-between">
-                                <h3 className="font-light"><i>Collingwood, ON</i></h3>
-                                <h2>April 2019 - March 2020</h2>
+                            <div className="flex flex-col">
+                                <h3><i>Collingwood, ON</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />April 2019 - March 2020</h2>
                             </div> 
                         } 
                         bullets={
                             <ul className="list-disc"> 
-                                <li>One of three women selected for the provincial ski team</li>
-                                <li>Travelled across North America and Europe for elite-level racing and training</li>
-                                <li>Year-round commitment with upwards of 40 hours/week of training</li>
-                                <li>Maintained a high level of physical fitness and attended monthly fitness testing, nutrition, mental well-being, and sports performance sessions at the Canadian Sports Institute of Ontario</li>
-                                <li>Mentored younger athletes at races and training camps</li>
+                                <li className="mb-2">One of three women selected for the provincial ski team</li>
+                                <li className="mb-2">Travelled across North America and Europe for elite-level racing and training</li>
+                                <li className="mb-2">Year-round commitment with upwards of 40 hours/week of training</li>
+                                <li className="mb-2">Maintained a high level of physical fitness and attended monthly fitness testing, nutrition, mental well-being, and sports performance sessions at the Canadian Sports Institute of Ontario</li>
+                                <li className="mb-2">Mentored younger athletes at races and training camps</li>
                             </ul>   
                         }
                     />
