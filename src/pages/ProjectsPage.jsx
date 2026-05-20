@@ -110,7 +110,7 @@ const ProjectsPage = () => {
                 <InfoBox 
                     title={"Personal Portfolio"} 
                     media={
-                            <img src={portfolioPic} alt="screenshot of this site's homepage"/>
+                            <img className="border-white border-8" src={portfolioPic} alt="screenshot of this site's homepage"/>
                         } 
                     tagline = {
                         <div className="flex flex-col gap-2">
