@@ -188,6 +188,10 @@ import { IoMdPin } from "react-icons/io";
                                 <FaSkiing className="text-primaryBlue text-xl shrink-0" />
                                 <span className="mt-3 mb-3"><b>Childhood Dream Job: </b>archaeologist</span>
                             </li>
+                            <li className="flex items-center gap-3">
+                                <FaSkiing className="text-primaryBlue text-xl shrink-0" />
+                                <span className="mt-3 mb-3">I have kept a detailed journal of my day for 2700+ days!</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
