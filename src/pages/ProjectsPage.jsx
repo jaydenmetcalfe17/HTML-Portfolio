@@ -144,7 +144,7 @@ const ProjectsPage = () => {
                                     <StackBox tool={"Python"}/>
                                     <StackBox tool={"lingpy"}/>
                                 </h3>
-                                <p>Built for a Natural Language and Data Science class.</p>
+                                <p>Project for COMP345: From Natural Language to Data Science</p>
                             </div>
                         } 
                         bullets={
@@ -164,7 +164,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Python"}/>
                                 </h3>
-                                <p>Built for a Natural Language and Data Science class.</p>
+                                <p>Project for COMP345: From Natural Language to Data Science</p>
                             </div>
                         } 
                         bullets={
@@ -190,7 +190,7 @@ const ProjectsPage = () => {
                                     <StackBox tool={"Keras/Tensorflow"}/>
                                     <StackBox tool={"PyTorch"}/>
                                 </h3>
-                                <p>Built for a Applied Machine Learning class.</p>
+                                <p>Project for COMP551: Applied Machine Learning</p>
                             </div>
                         } 
                         bullets={
@@ -217,7 +217,7 @@ const ProjectsPage = () => {
                                     <StackBox tool={"NumPy"}/>
                                     <StackBox tool={"Matplotlib"}/>
                                 </h3>
-                                <p>Built for a Applied Machine Learning class.</p>
+                                <p>Project for COMP551: Applied Machine Learning</p>
                             </div>
                         } 
                         bullets={
@@ -243,7 +243,7 @@ const ProjectsPage = () => {
                                     <StackBox tool={"scikit-learn"}/>
                                     <StackBox tool={"Matplotlib"}/>
                                 </h3>
-                                <p>Built for a Applied Machine Learning class.</p>
+                                <p>Project for COMP551: Applied Machine Learning</p>
                             </div>
                         } 
                         bullets={
@@ -265,7 +265,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Python"}/>
                                 </h3>
-                                <p>Built for a Foundations of Programming class.</p>
+                                <p>Project for COMP202: Foundations of Programming</p>
                             </div>
                         } 
                         bullets={
@@ -290,7 +290,7 @@ const ProjectsPage = () => {
                                     <StackBox tool={"Python"}/>
                                     <StackBox tool={"Reddit PRAW library"}/>
                                 </h3>
-                                <p>Built for a Foundations of Programming class.</p>
+                                <p>Project for COMP202: Foundations of Programming</p>
                             </div>
                         } 
                         bullets={
@@ -315,7 +315,7 @@ const ProjectsPage = () => {
                             <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Java"}/>
                                 </h3>
-                                <p>Built for an Intro to Computer Science/Object Oriented Programming class.</p>
+                                <p>Project for COMP250: Intro to Computer Science</p>
                             </div>
                         } 
                         bullets={
@@ -340,7 +340,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Java"}/>
                                 </h3>
-                                <p>Built for an Intro to Computer Science/Object Oriented Programming class.</p>
+                                <p>Project for COMP250: Intro to Computer Science</p>
                             </div>
                         } 
                         bullets={
@@ -362,7 +362,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Java"}/>
                                 </h3>
-                                <p>Built for an Intro to Computer Science/Object Oriented Programming class.</p>
+                                <p>Project for COMP250: Intro to Computer Science</p>
                             </div>
                         } 
                         bullets={
@@ -385,7 +385,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Java"}/>
                                 </h3>
-                                <p>Built for an Intro to Computer Science/Object Oriented Programming class.</p>
+                                <p>Project for COMP250: Intro to Computer Science</p>
                             </div>
                         } 
                         bullets={
@@ -411,7 +411,7 @@ const ProjectsPage = () => {
                                     <StackBox tool={"Matplotlib"}/>
                                     <StackBox tool={"websocket-client"}/>
                                 </h3>
-                                <p>Built for a Foundations of Programming class.</p>
+                                <p>Project for COMP202: Foundations of Programming</p>
                             </div>
                         } 
                         bullets={
@@ -433,7 +433,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Python"}/>
                                 </h3>
-                                <p>Built for a Foundations of Programming class.</p>
+                                <p>Project for COMP202: Foundations of Programming</p>
                             </div>
                         } 
                         bullets={
@@ -456,7 +456,7 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"C"}/>
                                 </h3>
-                                <p>Built for an Intro to Software Systems class.</p>
+                                <p>Project for COMP206: Intro to Software Systems</p>
                             </div>
                         } 
                         bullets={
