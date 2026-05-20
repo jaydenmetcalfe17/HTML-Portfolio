@@ -179,7 +179,7 @@ const ExperiencePage = () => {
                                         <li>Intramural Soccer and Dodgeball</li>
                                     </ul>
                                 </li>
-                                <div className="grid grid-cols-4 gap-3 pt-4">
+                                <div className="grid grid-cols-1 md:grid-cols-4 gap-3 pt-4">
                                     <div>
                                         <div>
                                             <h2 className="font-bold text-lg text-primaryBlue">U0</h2>
