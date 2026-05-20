@@ -6,7 +6,7 @@ const InfoBox = ({title, media, tagline, bullets}) => {
     return (
         <Tilt
             tiltMaxAngleX={1.5}
-            tiltMaxAngleY={1.5}
+            tiltMaxAngleY={1}
             perspective={1200}
             transitionSpeed={1500}
             glareEnable={true}
@@ -23,7 +23,7 @@ const InfoBox = ({title, media, tagline, bullets}) => {
                     <h2 className="font-bold text-xl text-primaryBlue">{title}</h2>
                     {tagline}
                 </div>
-                <div className="flex p-5">
+                <div className="flex pt-5">
                     {bullets}
                 </div>
             </div>

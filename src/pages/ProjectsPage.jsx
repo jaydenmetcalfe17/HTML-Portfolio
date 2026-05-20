@@ -8,6 +8,7 @@ import StackBox from '../components/StackBox'
 import video1 from "/images/SpotItDemo.mp4"
 import video2 from "/images/PointsCalculatorDemo.mp4"
 import video3 from "/images/trainingtrackerwalkthrough.mp4"
+import portfolioPic from "/images/portfolio-screenshot.png"
 
 import { IoLogoGithub } from "react-icons/io";
 
@@ -42,12 +43,15 @@ const ProjectsPage = () => {
                         </div>
                     } 
                     bullets={
-                        <ul className="list-disc">  
-                            <li className="mb-2">Owned end-to-end development of a multi-service, full-stack training analytics web application.</li>
-                            <li className="mb-2">Implemented OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents.</li>
-                            <li className="mb-2">Designed and optimized RESTful APIs and SQL queries to support filtering and comparative analytics, improving query efficiency and enabling data-driven adjustments to the training plan.</li>
-                            <li className="mb-2">Containerized using Docker to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance.</li>
-                            <li className="mb-2">Built unit and integration test suites using Jest, Vitest, and React Testing Library, improving application reliability</li>
+                        <ul> 
+                            <li className="mb-2">Owned end-to-end development of a multi-service, full-stack training analytics web application</li>
+                            <li className="mb-2">Implemented OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents</li>
+                            <li className="mb-2">Designed and optimized RESTful APIs and SQL queries to support filtering and comparative analytics, 
+                                                improving query efficiency and enabling data-driven adjustments to the training plan</li>
+                            <li className="mb-2">Containerized using Docker to separate frontend, backend, and database services, improving scalability 
+                                                and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance</li>
+                            <li className="mb-2">Built unit and integration test suites using Jest, Vitest, and React Testing Library, improving 
+                                                application reliability</li>
                         </ul>
                     }
                 />
@@ -70,9 +74,12 @@ const ProjectsPage = () => {
                         </div>
                     } 
                     bullets={
-                        <ul className="list-disc">  
-                            <li className="mb-2">Currently, there is no publicly available way for alpine ski racers to calculate what they “scored” until a third party performs the calculation and uploads the file. This process can take hours. Knowing what you scored can be a make or break factor in how you feel about your performance as an athlete. The better you score, the lower your world ranking may become.</li>
-                            <li className="mb-2">As a result, I decided to develop a program to help reduce the time of this waiting game. A user can enter a link to a live-timing.com race results page. The backend handles the API requests and retrieves data from the third party live timing site. A Python subprocess interprets and calculates the raw data. The results are displayed through a dynamic frontend.</li>
+                        <ul>
+                            <li className="mb-2">Alpine ski racers rely on a third party to calculate and upload results so they can determine what they "scored"</li> 
+                            <li className="mb-2">Developed a program that reduces wait times from hours to seconds</li>   
+                            <li className="mb-2">Users can enter a link from a live timing website, then the backend handles the API requests before retrieving data from the site</li>
+                            <li className="mb-2">Python subprocess interprets the data and calculates the "score" for each racer</li>
+                            <li className="mb-2">Results are displayed through a dynamic frontend built with HTML, CSS, JavaScript</li>
                         </ul>
                     }
                 />
@@ -93,15 +100,17 @@ const ProjectsPage = () => {
                         </div>
                     } 
                     bullets={
-                        <ul className="list-disc">  
-                            <li className="mb-2">After being unable to find a valid online version of Spot It, I decided to create my own with a few changed symbols. The computer has a randomized timer. If the player doesn't choose correctly before the countdown finishes, then the computer wins that turn.</li>
+                        <ul> 
+                            <li className="mb-2">Built a JavaScript version of one of my favourite games, Spot It</li>
+                            <li className="mb-2">Computer has a randomized timer. If the player doesn't choose correctly 
+                                                before the countdown finishes, then the computer wins that turn</li>
                         </ul>
                     }
                 />
                 <InfoBox 
                     title={"Personal Portfolio"} 
                     media={
-                            <img />
+                            <img src={portfolioPic} alt="screenshot of this site's homepage"/>
                         } 
                     tagline = {
                         <div className="flex flex-col gap-2">
@@ -114,8 +123,8 @@ const ProjectsPage = () => {
                         </div>
                     } 
                     bullets={
-                        <ul className="list-disc">  
-                            <li className="mb-2">Designed and developed a custom portfolio website to provide further insight to my skills and experience.</li>
+                        <ul> 
+                            <li className="mb-2">Designed and developed a custom portfolio website to provide further insight to my skills and experience</li>
                         </ul>
                     }
                 />
@@ -139,8 +148,9 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Used features of the lingpy library to cluster data and reconstruct a tree of cross-linguistic wordform data based on their optimal phylogenies (sound forms of words).</li>
+                            <ul> 
+                                <li className="mb-2">Used features of the lingpy library to cluster data and reconstruct a tree of cross-linguistic 
+                                                    wordform data based on their optimal phylogenies (sound forms of words)</li>
                             </ul>
                         }
                     />
@@ -158,8 +168,13 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Built an n-gram language model using Twitter data. Created functions that took a bigram and returned top possibilities for the next word given trigram frequencies in the data, sampled possibilities for the next word without repetition when given the bigram, and generated sentences starting with a given prefix using a beam search algorithm. The second part of the assignment involved building an intent classifier and a slot filler for semantic parsing.</li>
+                            <ul> 
+                                <li className="mb-2">Built an n-gram language model using Twitter data</li>
+                                <li className="mb-2">Created functions that took a bigram and returned the most likely next word given
+                                                    trigram frequencies in the dataset</li>
+                                <li className="mb-2">Sampled possible next words without repetition when given a bigram</li>
+                                <li className="mb-2">Generated sentences from a given prefix using a beam search algorithm</li>
+                                <li className="mb-2">Developed an intent classifier and slot filler for semantic parsing</li>
                             </ul>
                         }
                     />
@@ -179,8 +194,13 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">As a group, we implemented a multilayer perceptron (MLP) from scratch to classify data from the MNIST sign language dataset then compared it to a Convolutional Neural Network (CNN) created using Keras/Tensorflow and PyTorch libraries. We tested various hyperparameters on a validation set to find the values that led to the highest accuracies. Gradient descent was performed. The gradients used to update each layer's weights were verified by small perturbation analysis. Accuracy was also compared when L2 regularization was added to a 2-layer MLP.</li>
+                            <ul> 
+                                <li className="mb-2">Collaborated on a group project to implement a multilayer perceptron (MLP) from scratch for classifying images 
+                                                    from the MNIST Sign Language dataset</li>
+                                <li className="mb-2">Compared model performance against a Convolutional Neural Network (CNN) built using Keras/TensorFlow and PyTorch</li>  
+                                <li className="mb-2">Tested and tuned hyperparameters on a validation set to optimize classification accuracy</li>
+                                <li className="mb-2">Implemented gradient descent and updated layer weights using backpropagated gradients, verified through perturbation analysis</li>
+                                <li className="mb-2">Evaluated the impact of L2 regularization on the accuracy of a two-layer MLP</li>
                             </ul>
                         }
                     />
@@ -194,15 +214,20 @@ const ProjectsPage = () => {
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Python"}/>
                                     <StackBox tool={"scikit-learn"}/>
-                                    <StackBox tool={"numpy"}/>
-                                    <StackBox tool={"matplotlib"}/>
+                                    <StackBox tool={"NumPy"}/>
+                                    <StackBox tool={"Matplotlib"}/>
                                 </h3>
                                 <p>Built for a Applied Machine Learning class.</p>
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">A group project where we implemented logistic regression and multiclass regression algorithms from scratch and compare them to Decision Trees for two distinct textual datasets. Regular regression models such as Ridge and LASSO were also implemented for comparison. The data was preprocessed to remove rare and stopwords then top features were determined for various classes. Further analysis was conducted using scikit-learn, numpy and matplotlib features to draw ROC curves, report AUROC values, compare classification accuracies, and test the results as a function of the size of the dataset by controlling the training set size.</li>
+                            <ul> 
+                                <li className="mb-2">Collaborated on a group project to implement logistic, multiclass, Ridge, and LASSO regression algorithms from 
+                                                    scratch and compare their performance against Decision Trees on two textual datasets</li>
+                                <li className="mb-2">Preprocessed text data by removing stop words and low-frequency terms, then identified top features for 
+                                                    different classification categories</li>
+                                <li className="mb-2">Used scikit-learn, NumPy, and Matplotlib to generate ROC curves, report AUROC metrics, compare classification 
+                                                    accuracies, and analyze performance as a function of training dataset size</li>
                             </ul>
                         }
                     />
@@ -216,14 +241,17 @@ const ProjectsPage = () => {
                             <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Python"}/>
                                     <StackBox tool={"scikit-learn"}/>
-                                    <StackBox tool={"matplotlib"}/>
+                                    <StackBox tool={"Matplotlib"}/>
                                 </h3>
                                 <p>Built for a Applied Machine Learning class.</p>
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">A group project where we implemented KNN and Decision Tree classifiers from scratch and used them to analyze AUROC and accuracy scores for two different datasets. Found the optimal hyperparameters for each classifier using a validation set. Analyzed data using matplotlib graphing methods and various scikit-learn tools.</li>
+                            <ul> 
+                                <li className="mb-2">Collaborated on a group project to implement K-Nearest Neighbors (KNN) and Decision Tree classifiers 
+                                                    from scratch and evaluate their AUROC and accuracy across two datasets</li>
+                                <li className="mb-2">Tuned classifier hyperparameters using a validation set to determine optimal model performance</li>
+                                <li className="mb-2">Analyzed and visualized results using Matplotlib and scikit-learn tools</li>
                             </ul>
                         }
                     />
@@ -241,8 +269,13 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">The game has a 1 player (which loads a list of words from a file and chooses a random one) or a 2 player mode (where Player 1 can input a word of their choice for Player 2 to guess). The game checks the user's guess against the answer word then returns the guessed word with the letters coloured accordingly to the rules of Wordle. The user has a limited number of guesses.</li>
+                            <ul> 
+                                <li className="mb-2">Developed a Wordle-style game with single-player and two-player modes</li>
+                                <li className="mb-2">Single-player mode loads a word list from a file and selects a random target word</li>
+                                <li className="mb-2">Two-player mode allows Player 1 to input a custom word for Player 2 to guess</li>
+                                <li className="mb-2">Implemented guess validation logic that compares user input to the target word and returns 
+                                                    colour-coded feedback based on Wordle rules</li>
+                                <li className="mb-2">Limited the number of guesses to create structured gameplay and challenge constraints</li>
                             </ul>
                         }
                     />
@@ -261,8 +294,14 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Created a Reddit account for a bot that would rig a fake election that was set up on a Subreddit page created by the professors. The bot would post spam comments in support of a fake political candidate in order to garner support for them. The program uses the Reddit PRAW library to log into the account, access all the posts, comments and replies on the given Subreddit then goes through everything to see if your bot has posted a comment under the respective item. When it reaches an item that your bot has not interacted with, it will generate a comment using a loaded text file with madlibs style fill-in-the-blank comments to increase the randomness of the comment. A bot daemon was used to ensure that the program would not post a comment more than once per minute.</li>
+                            <ul> 
+                                <li className="mb-2">Created a Reddit bot account to participate in a simulated election on a course-designed subreddit</li>
+                                <li className="mb-2">Developed a bot that posts comments in support of a designated political candidate to simulate voter 
+                                                    influence within the assignment constraints</li>
+                                <li className="mb-2">Used the Reddit PRAW library to authenticate, access subreddit posts, comments, and replies, and track prior bot interactions</li>
+                                <li className="mb-2">Implemented logic to avoid duplicate interactions by checking whether the bot had already commented on each item</li>
+                                <li className="mb-2">Generated semi-random comments using a templated “Mad Libs”-style text file to increase variability in responses</li>
+                                <li className="mb-2">Added a rate-limiting daemon to ensure the bot does not post more than once per minute</li>
                             </ul>
                         }
                     />
@@ -280,11 +319,14 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2"> Focus on learning how to implement algorithms into programs.
-                                                        2D maps was displayed using a GUI which had different regions. Each type of region tile had different damage, time, and distance values. The goal was to try and find various paths from point A to B in the most optimal way.
-                                                        Used breadth first search and depth first search. Weighted edges were used to gauge the value of each connection between the tiles on the paths. Dijkstra's algorithm was implemented to find the shortest path based on either minimum distance or fastest time. The program took potential waypoints into account if certain stops were necessary in the path. 
-                                                        A constrained shortest path program was implemented using LARAC (Lagrangian Relaxation Based Aggregated Cost) algorithm which would track whether the amount of damage on the path would cause the user to die before making it to the safe house. The optimal path was created by using the best distance or time where health was not depleted.</li>
+                            <ul> 
+                                <li className="mb-2">Developed a GUI-based 2D map system with region-based tiles, each containing attributes such as damage, time, and distance</li>
+                                <li className="mb-2">Applied BFS and DFS to explore and compare potential paths between two points</li>
+                                <li className="mb-2">Implemented Dijkstra's algorithm with weighted edges to determine the shortest path based on either minimum distance 
+                                                    or fastest time, including support for required waypoints</li>
+                                <li className="mb-2">Built a constrained shortest-path solution using the LARAC (Lagrangian Relaxation Based Aggregated Cost) algorithm 
+                                                    to ensure health constraints were not violated en route to the destination</li>
+                                <li className="mb-2">Generated optimal paths by balancing distance, time, and survivability constraints to reach a target location safely</li>
                             </ul>
                         }
                     />
@@ -302,8 +344,11 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Focus on hierarchy, nodes, heaps, linked lists, and binary search trees. Different cats are created with traits based on age, and fur thickness. The cats are arranged by seniority in a combination of a binary search tree (for the cats' seniority) and a max heap (for the cats' fur thickness). When a cat is added or removed, the heap tree is reorganized using specific algorithms for left and right rotations, and upheaping and downheaping. Other algorithms are used to search the tree for the most senior or junior cat. An iterator is also implemented.</li>
+                            <ul> 
+                                <li className="mb-2">Designed a system that models cats with various traits and organises them by seniority using a binary search tree and by fur thickness using a max heap</li>
+                                <li className="mb-2">Implemented insertion and deletion logic that maintains heap and tree properties through rotations, up-heap, and down-heap operations</li>
+                                <li className="mb-2">Developed search algorithms to efficiently retrieve the most senior and most junior cats in the structure</li>
+                                <li className="mb-2">Implemented an iterator to traverse the data structure and access stored elements sequentially</li>
                             </ul>
                         }
                     />
@@ -321,8 +366,12 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Large focus on inheritance. The concept of the game is that bees and hornets fight in a tower defense game. A GUI gives us the ability to visually act out this game. Different types of bees are created using inheritance and different classes. Certain traits and abilities are overridden to make each bee unique. Functions were created with the purpose of knowing the locations of bees and hornets on the tiles, adding health, attacking opposing creatures, moving the creatures, and adding them to the tiles.</li>
+                            <ul> 
+                                <li className="mb-2">Developed a tower defence-style game where bees and hornets battle to defend opposing towers, 
+                                                    supported by a GUI-based visual interface</li>
+                                <li className="mb-2">Implemented multiple bee types using inheritance, with overridden attributes and behaviours to create distinct unit abilities</li>
+                                <li className="mb-2">Built core game mechanics including unit placement, movement, health tracking, and attack interactions between opposing entities</li>
+                                <li className="mb-2">Managed grid-based tile logic to track entity positions and update game state dynamically during simulation</li>
                             </ul>
                         }
                     />
@@ -340,8 +389,11 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Focus on using O(n) or O(1) notation and reaching time complexity goals. Wrote code for the solitaire cipher for encoding and decoding messages. Create a program with a class for a deck of cards. A keystream is generated and used in the encryption process. Then another function works backwards to decode the message.</li>
+                            <ul> 
+                                <li className="mb-2">Focused on optimizing time complexity using Big-O analysis, targeting O(n) and O(1) performance where possible</li>
+                                <li className="mb-2">Implemented the Solitaire cipher for message encryption and decryption, including construction of a custom deck-of-cards class</li>
+                                <li className="mb-2">Generated a keystream using deck manipulation algorithms and applied it to encode plaintext messages</li>
+                                <li className="mb-2">Built a corresponding decoding function to reverse the encryption process and recover the original message accurately</li>
                             </ul>
                         }
                     />
@@ -354,17 +406,20 @@ const ProjectsPage = () => {
                             <div className="flex flex-col gap-2">
                                 <h3 className="font-light flex gap-2 flex-wrap">
                                     <StackBox tool={"Python"}/>
-                                    <StackBox tool={"numpy"}/>
+                                    <StackBox tool={"NumPy"}/>
                                     <StackBox tool={"pillow"}/>
-                                    <StackBox tool={"matplotlib"}/>
+                                    <StackBox tool={"Matplotlib"}/>
                                     <StackBox tool={"websocket-client"}/>
                                 </h3>
                                 <p>Built for a Foundations of Programming class.</p>
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Takes a string of 0s and 1s and uses this information to create images with black and white pixels. Functions were created to manipulate the images by changing the string. The image could be inverted, flipped horizontally and vertically, cropped, compressed and decompressed. Another function was able to process multiple commands at once using short hand versions of the other manipulations.</li>
+                            <ul> 
+                                <li className="mb-2">Developed a system that converts binary strings (0s and 1s) into black-and-white pixel images</li>
+                                <li className="mb-2">Implemented image manipulation functions that operate by modifying the underlying binary string representation</li>
+                                <li className="mb-2">Supported transformations including inversion, horizontal and vertical flipping, cropping, compression, and decompression</li>
+                                <li className="mb-2">Built a command-processing function capable of executing multiple image operations in sequence using shorthand commands</li>
                             </ul>
                         }
                     />
@@ -382,8 +437,12 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">Focused on using fileIO, docstring and doctest features. First introduction to Object Oriented Programming. Mimics contact tracing for the spread of an infectious disease. The program loads data from a CSV then runs it through functions which track who is infected, who has been contacted, who is potentially at risk, and the degrees of separation away from patient 0. The resulting data is then interpreted and displayed using charts, graphs, and plain text then stored in a separate file.</li>
+                            <ul> 
+                                <li className="mb-2">Focused on file I/O, docstrings, and doctest features to ensure correctness and documentation quality</li>
+                                <li className="mb-2">Developed a simulation model for infectious disease contact tracing</li>
+                                <li className="mb-2">Loaded and processed CSV data to track infection status, contacts, at-risk individuals, and degrees of separation from patient zero</li>
+                                <li className="mb-2">Analysed and visualised results using charts, graphs, and textual output</li>
+                                <li className="mb-2">Exported processed results to a separate output file for further analysis and record-keeping</li>
                             </ul>
                         }
                     />
@@ -401,8 +460,12 @@ const ProjectsPage = () => {
                             </div>
                         } 
                         bullets={
-                            <ul className="list-disc">  
-                                <li className="mb-2">First introduction to using shared Git repositories to collaborate with other developers over a private server. First look at .h files and makefiles. Worked in a team of 3 using a shared repository on the school’s local system so we could push and pull code. Created a phonebook that would take data and load it from a CSV then write it back in the same CSV file after modifications. Built using a linked list with different functions for performing tasks such as adding, deleting, and listing contacts.</li>
+                            <ul>  
+                                <li className="mb-2">Gained initial experience using shared Git repositories to collaborate with a team of developers on a private server</li>
+                                <li className="mb-2">Learned and applied C project structure concepts including header (.h) files and Makefiles</li>
+                                <li className="mb-2">Worked in a team of three using a shared repository on the school's local system to manage version control through push and pull workflows</li>
+                                <li className="mb-2">Developed a phonebook application that reads contact data from a CSV file, performs modifications, and writes updates back to the same file</li>
+                                <li className="mb-2">Implemented the application using a linked list data structure with functions for adding, deleting, and listing contacts</li>
                             </ul>
                         }
                     />
@@ -410,15 +473,6 @@ const ProjectsPage = () => {
             )
         }
     ]
-
-
-
-
-
-
-
-
-
 
 
   return (

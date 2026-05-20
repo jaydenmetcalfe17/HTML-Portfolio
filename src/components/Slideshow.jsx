@@ -10,7 +10,7 @@ import saasFeeImg from "/images/saas_carousel.JPG"
 import stresaImg from "/images/stresa_carousel.JPG"
 import sunPeaksImg from "/images/sun_peaks_carousel.JPG"
 import eagleImg from "/images/eagle_carousel.jpeg"
-import southDakotaImg from "/images/sun_peaks_carousel.JPG"
+import southDakotaImg from "/images/southdakota_carousel.JPG"
 import saasFee2025Img from "/images/saasfee2025_1_carousel.JPG"
 import saasFeeTrainingImg from "/images/saasfee_training_carousel.JPEG"
 import whisGroupImg from "/images/whis_group_carousel.JPG"
@@ -51,7 +51,7 @@ const Slideshow = () => {
     };
 
   return (
-    <>
+    <div className="flex flex-col gap-5">
         <div className="relative max-w-250 mx-auto">
             {slideImages.map((image, index) => (
             <Slide
@@ -80,7 +80,7 @@ const Slideshow = () => {
             </span>
             ))}
       </div>   
-    </>
+    </div>
   );
 };
 

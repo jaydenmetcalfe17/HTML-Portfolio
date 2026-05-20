@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="fixed top-0 z-1001 w-full min-w-250 bg-primaryRed shadow-[0px_3px_2px_0px_rgba(0,0,0,0.25)]">
+    <header className="fixed pt-2 pb-2 top-0 z-1001 w-full min-w-250 bg-primaryRed shadow-[0px_3px_2px_0px_rgba(0,0,0,0.25)]">
       <nav className="flex justify-start py-3 px-4">
             <ul className="flex flex-wrap gap-2">
                 <li className="nav-item">

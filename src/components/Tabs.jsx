@@ -11,7 +11,7 @@ const Tabs = ({tabs}) => {
 
             <div className="flex flex-wrap justify-center">
                 {tabs.map((tab) => (
-                    <button key={tab.id} className={`font-['Shrikhand'] text-xl px-4 py-2 font-semibold ${activeTab === tab.id ? "border-b-2 border-primaryBlue text-primaryBlue" : "text-gray-500 hover:text-primaryBlue"}`} onClick={() => setActiveTab(tab.id)}>
+                    <button key={tab.id} className={`font-['Shrikhand'] text-xl px-4 py-2 tracking-wide font-semibold ${activeTab === tab.id ? "border-b-2 border-primaryBlue text-primaryBlue" : "text-gray-400 hover:text-primaryBlue"}`} onClick={() => setActiveTab(tab.id)}>
                         {tab.label}
                     </button>
                 ))}
