@@ -63,7 +63,7 @@ import { IoMdPin } from "react-icons/io";
                     Experienced with applications that integrate real-time data, support multiple user roles, and require thoughtful coordination between frontend and backend systems.
                 </p>
                 <p>
-                    Takes a self-driven approach to learning modern tools and frameworks. Develops skills through hands-on projects, independent study, and collaborating with agentic AI.
+                    Takes a self-driven approach to learning modern tools and frameworks. Develops skills through hands-on projects, independent study, and collaborating with agentic AI tools.
                 </p>
             </div>
         </div>
@@ -150,6 +150,7 @@ import { IoMdPin } from "react-icons/io";
                         <div className="font-light flex gap-2 flex-wrap">
                             <StackBox tool={"Git"}/>
                             <StackBox tool={"Arduino"}/>
+                            <StackBox tool={"Claude"}/>
                         </div>
                     </div>
                 </div>           
