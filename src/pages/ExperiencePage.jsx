@@ -35,12 +35,12 @@ const ExperiencePage = () => {
                     } 
                     bullets={
                         <ul className="list-disc mx-6">  
-                            <li className="mb-2">Engineered a full-stack analytics web application using React, TypeScript, Node.js, Express.js, PostgreSQL, and Python to track and analyze athletes' training data</li>
-                            <li className="mb-2">Implemented secure OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents</li>
-                            <li className="mb-2">Architected and optimized RESTful APIs and SQL queries to support filtering and comparative analytics of hundreds of data points, improving query performance and enabling data-driven adjustments to team training programs</li>
-                            <li className="mb-2">Containerized using Docker and Docker Compose to separate frontend, backend, and database services, improving scalability and maintainability, then deployed the application as an Amazon Web Services (AWS) EC2 instance</li>
-                            <li className="mb-2">Collaborated with users to gather feedback and rapidly deliver feature updates in an iterative development process, often achieving same-day turnaround</li>
-                            <li>Analyzed data to design and lead targeted training sessions for 40+ athletes while coordinating with a team of 6 coaches to optimize program structure and outcomes</li>
+                            <li className="mb-2">Engineered a full-stack analytics web application using React, TypeScript, Node.js, Express.js, PostgreSQL, and Python to track and analyze athletes' training data, implementing secure OAuth 2.0 authentication and role-based access control for coaches, athletes, and parents</li>
+                            <li className="mb-2">Architected and optimized RESTful APIs and SQL queries to support filtering and comparative analytics of hundreds of data points, enabling data-driven adjustments to team training programs</li>
+                            <li className="mb-2">Containerized using Docker and Docker Compose to separate frontend, backend, and database services, then deployed on AWS EC2; collaborated with users to rapidly deliver feature updates in an iterative development process, often achieving same-day turnaround</li>
+                            <li className="mb-2">Developed a Python program to extract, filter, and visualize timing data, generating dynamic charts and reports to analyze athlete trends, progression, and performance comparisons across demographic metrics including age and gender</li>
+                            <li className="mb-2">Designed custom Excel functions and automated formulas to calculate athletes' fitness testing combine scores based on Alpine Canada's official scoring rubric, eliminating manual calculations</li>
+                            <li className="mb-2">Analyzed data to design and lead targeted training sessions for 40+ athletes while coordinating with a team of 6 coaches to optimize program structure and outcomes</li>
                         </ul>
                     }
                 />
