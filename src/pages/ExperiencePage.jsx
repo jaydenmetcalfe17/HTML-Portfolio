@@ -40,6 +40,7 @@ const ExperiencePage = () => {
                             <li className="mb-2">Containerized using Docker and Docker Compose to separate frontend, backend, and database services, then deployed on AWS EC2; collaborated with users to rapidly deliver feature updates in an iterative development process, often achieving same-day turnaround</li>
                             <li className="mb-2">Developed a Python program to extract, filter, and visualize timing data, generating dynamic charts and reports to analyze athlete trends, progression, and performance comparisons across demographic metrics including age and gender</li>
                             <li className="mb-2">Designed custom Excel functions and automated formulas to calculate athletes' fitness testing combine scores based on Alpine Canada's official scoring rubric, eliminating manual calculations</li>
+                            <li className="mb-2">Building a custom Uniform Manager platform with Next.js, TypeScript, PostgreSQL (Neon), and Prisma to streamline the distribution and tracking of hundreds of equipment pieces across 45+ employees, leveraging Claude AI as a development assistant to accelerate full-stack feature delivery</li>
                             <li className="mb-2">Analyzed data to design and lead targeted training sessions for 40+ athletes while coordinating with a team of 6 coaches to optimize program structure and outcomes</li>
                         </ul>
                     }
