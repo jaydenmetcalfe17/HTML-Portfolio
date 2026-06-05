@@ -99,6 +99,7 @@ import { IoMdPin } from "react-icons/io";
                             <StackBox tool={"Sass"}/>
                             <StackBox tool={"TailwindCSS"}/>
                             <StackBox tool={"Bootstrap"}/>
+                            <StackBox tool={"Next.js"}/>
                         </div>
                     </div>
                     <div className="flex flex-row items-center gap-2">
@@ -150,6 +151,7 @@ import { IoMdPin } from "react-icons/io";
                         <div className="font-light flex gap-2 flex-wrap">
                             <StackBox tool={"Git"}/>
                             <StackBox tool={"Arduino"}/>
+                            <StackBox tool={"Figma"}/>
                             <StackBox tool={"Claude"}/>
                         </div>
                     </div>
