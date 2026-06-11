@@ -130,6 +130,7 @@ import { IoMdPin } from "react-icons/io";
                         <h2 className="font-semibold">Cloud & DevOps: </h2>
                         <div className="font-light flex gap-2 flex-wrap">
                             <StackBox tool={"AWS"}/>
+                            <StackBox tool={"Vercel"}/>
                             <StackBox tool={"Docker"}/>
                             <StackBox tool={"REST APIs"}/>
                         </div>
@@ -150,6 +151,7 @@ import { IoMdPin } from "react-icons/io";
                         <h2 className="font-semibold">Tools: </h2>
                         <div className="font-light flex gap-2 flex-wrap">
                             <StackBox tool={"Git"}/>
+                            <StackBox tool={"GitHub"}/>
                             <StackBox tool={"Arduino"}/>
                             <StackBox tool={"Figma"}/>
                             <StackBox tool={"Claude"}/>
