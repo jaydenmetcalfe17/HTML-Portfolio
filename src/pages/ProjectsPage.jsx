@@ -56,6 +56,33 @@ const ProjectsPage = () => {
                     }
                 />
                 <InfoBox 
+                    title={"Uniform Manager"} 
+                    // media={
+                    //         <Video source={video2}/>
+                    //     } 
+                    tagline = {
+                        <div className="flex flex-col gap-2">
+                            <a href="https://github.com/jaydenmetcalfe17/uniform-manager" target="_blank"><IoLogoGithub className="text-3xl hover:text-primaryBlue transition-transform duration-200 hover:scale-110"/></a>
+                            <h3 className="font-light flex gap-2 flex-wrap">
+                                <StackBox tool={"TypeScript"}/>
+                                <StackBox tool={"Next.js"}/>
+                                <StackBox tool={"PostgreSQL"}/>
+                                <StackBox tool={"Prisma"}/>
+                                <StackBox tool={"Neon"}/>
+                                <StackBox tool={"TailwindCSS"}/>
+                                <StackBox tool={"Vercel"}/>
+                                <StackBox tool={"Claude"}/>
+                            </h3>
+                        </div>
+                    } 
+                    bullets={
+                        <ul>
+                            <li className="mb-2">Built a custom Uniform Manager platform with Next.js, TypeScript, PostgreSQL (Neon), and Prisma to streamline the distribution and tracking of hundreds of equipment pieces across 45+ employees </li>
+                            <li className="mb-2">Leveraged Claude AI as a development assistant to accelerate full-stack feature delivery</li>
+                        </ul>
+                    }
+                />
+                <InfoBox 
                     title={"FIS Points Calculator"} 
                     media={
                             <Video source={video2}/>
