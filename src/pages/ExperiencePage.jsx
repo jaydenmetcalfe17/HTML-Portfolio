@@ -283,73 +283,7 @@ const ExperiencePage = () => {
                 </div>
             )
         },
-        {id: "tab3", label: "Extra", content: 
-            (   
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <InfoBox 
-                        title={"McGill Varsity Ski Team"} 
-                        media={
-                            <img className="h-37.5 w-37.5 rounded-xl" src={mcGillAthleticsLogo} alt="McGill Athletics logo"/>
-                        }  
-                        tagline = {
-                            <div className="flex flex-col">
-                                <h3><i>Montréal, QC</i></h3>
-                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2020 - May 2023</h2>
-                            </div>
-                        } 
-                        bullets={
-                            <ul className="list-disc mx-6">
-                                <li className="mb-2">Team Captain and Varsity Council Team Representative</li>
-                                <li className="mb-2">Balanced a full university course load while training or competing five days a week</li> 
-                            </ul>
-                        }
-                    />
-                    <InfoBox 
-                        title={"TEAM Mentor"} 
-                        media={
-                            <img className="h-37.5 w-37.5 rounded-xl" src={mcgillLogo} alt="McGill logo"/>
-                        }  
-                        tagline = {
-                            <div className="flex flex-col">
-                                <h3><i>Montréal, QC</i></h3>
-                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2022 - December 2022</h2>
-                            </div> 
-                        } 
-                        bullets={
-                            <ul className="list-disc mx-6"> 
-                                <li className="mb-2">Received the Tomlinson Engagement Award for Mentoring for PHYS102: Electromagnetism &amp; Optics</li>
-                                <li className="mb-2">Led a group of 15 students in weekly tutorials</li>
-                                <li className="mb-2">Summarized essential concepts and completed practice problems</li>
-                                <li className="mb-2">Encouraged collaboration among peers</li>
-                                <li className="mb-2">Responded to emails with further questions</li>
-                            </ul>   
-                        }
-                    />
-                    <InfoBox 
-                        title={"Ontario Ski Team Athlete"} 
-                        media={
-                            <img className="h-37.5 w-37.5 rounded-xl" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
-                        } 
-                        tagline = {
-                            <div className="flex flex-col">
-                                <h3><i>Collingwood, ON</i></h3>
-                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />April 2019 - March 2020</h2>
-                            </div> 
-                        } 
-                        bullets={
-                            <ul className="list-disc mx-6"> 
-                                <li className="mb-2">One of three women selected for the provincial ski team</li>
-                                <li className="mb-2">Travelled across North America and Europe for elite-level racing and training</li>
-                                <li className="mb-2">Year-round commitment with upwards of 40 hours/week of training</li>
-                                <li className="mb-2">Maintained a high level of physical fitness and attended monthly fitness testing, nutrition, mental well-being, and sports performance sessions at the Canadian Sports Institute of Ontario</li>
-                                <li className="mb-2">Mentored younger athletes at races and training camps</li>
-                            </ul>   
-                        }
-                    />
-                </div>
-            )
-        },
-        {id: "tab4", label: "Certifications", content: 
+        {id: "tab3", label: "Certifications", content: 
             (   
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <InfoBox 
@@ -434,6 +368,72 @@ const ExperiencePage = () => {
                         bullets={
                             <ul className="list-disc mx-6"> 
                                 <li className="mb-2">Developing and mastering skills in Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use MongoDB, SQL and much more.</li>
+                            </ul>   
+                        }
+                    />
+                </div>
+            )
+        },
+        {id: "tab4", label: "Extra", content: 
+            (   
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <InfoBox 
+                        title={"McGill Varsity Ski Team"} 
+                        media={
+                            <img className="h-37.5 w-37.5 rounded-xl" src={mcGillAthleticsLogo} alt="McGill Athletics logo"/>
+                        }  
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Montréal, QC</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2020 - May 2023</h2>
+                            </div>
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6">
+                                <li className="mb-2">Team Captain and Varsity Council Team Representative</li>
+                                <li className="mb-2">Balanced a full university course load while training or competing five days a week</li> 
+                            </ul>
+                        }
+                    />
+                    <InfoBox 
+                        title={"TEAM Mentor"} 
+                        media={
+                            <img className="h-37.5 w-37.5 rounded-xl" src={mcgillLogo} alt="McGill logo"/>
+                        }  
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Montréal, QC</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />September 2022 - December 2022</h2>
+                            </div> 
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6"> 
+                                <li className="mb-2">Received the Tomlinson Engagement Award for Mentoring for PHYS102: Electromagnetism &amp; Optics</li>
+                                <li className="mb-2">Led a group of 15 students in weekly tutorials</li>
+                                <li className="mb-2">Summarized essential concepts and completed practice problems</li>
+                                <li className="mb-2">Encouraged collaboration among peers</li>
+                                <li className="mb-2">Responded to emails with further questions</li>
+                            </ul>   
+                        }
+                    />
+                    <InfoBox 
+                        title={"Ontario Ski Team Athlete"} 
+                        media={
+                            <img className="h-37.5 w-37.5 rounded-xl" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
+                        } 
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Collingwood, ON</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />April 2019 - March 2020</h2>
+                            </div> 
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6"> 
+                                <li className="mb-2">One of three women selected for the provincial ski team</li>
+                                <li className="mb-2">Travelled across North America and Europe for elite-level racing and training</li>
+                                <li className="mb-2">Year-round commitment with upwards of 40 hours/week of training</li>
+                                <li className="mb-2">Maintained a high level of physical fitness and attended monthly fitness testing, nutrition, mental well-being, and sports performance sessions at the Canadian Sports Institute of Ontario</li>
+                                <li className="mb-2">Mentored younger athletes at races and training camps</li>
                             </ul>   
                         }
                     />
