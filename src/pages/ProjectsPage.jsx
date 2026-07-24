@@ -8,6 +8,7 @@ import StackBox from '../components/StackBox'
 import video1 from "/images/SpotItDemo.mp4"
 import video2 from "/images/PointsCalculatorDemo.mp4"
 import video3 from "/images/trainingtrackerwalkthrough.mp4"
+import video4 from "/images/uniformwalkthrough.mp4"
 import portfolioPic from "/images/portfolio-screenshot.png"
 
 import { IoLogoGithub } from "react-icons/io";
@@ -57,9 +58,9 @@ const ProjectsPage = () => {
                 />
                 <InfoBox 
                     title={"Uniform Manager"} 
-                    // media={
-                    //         <Video source={video2}/>
-                    //     } 
+                    media={
+                            <Video source={video4}/>
+                        } 
                     tagline = {
                         <div className="flex flex-col gap-2">
                             <a href="https://github.com/jaydenmetcalfe17/uniform-manager" target="_blank"><IoLogoGithub className="text-3xl hover:text-primaryBlue transition-transform duration-200 hover:scale-110"/></a>
