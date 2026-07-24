@@ -349,6 +349,97 @@ const ExperiencePage = () => {
                 </div>
             )
         },
+        {id: "tab4", label: "Certifications", content: 
+            (   
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <InfoBox 
+                        title={"The Complete Full-Stack Web Development Bootcamp"} 
+                        // media={
+                        //     <img className="h-37.5 w-37.5 rounded-xl" src={mcGillAthleticsLogo} alt="McGill Athletics logo"/>
+                        // }  
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Udemy</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />July 2023</h2>
+                            </div>
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6">
+                                <li className="mb-2">60+ hours of course content that covers web development topics such as HTML, CSS, JavaScript, jQuery, npm, Express.js, REST APIs, PostgreSQL, MongoDB, React.js, web design, deployment, and more.</li>
+                            </ul>
+                        }
+                    />
+                    <InfoBox 
+                        title={"Figma UI UX Design Essentials"} 
+                        // media={
+                        //     <img className="h-37.5 w-37.5 rounded-xl" src={mcgillLogo} alt="McGill logo"/>
+                        // }  
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Udemy</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />July 2023</h2>
+                            </div> 
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6"> 
+                                <li className="mb-2">Learning how to use Figma to design user interfaces, wireframes, and prototypes.</li>
+                            </ul>   
+                        }
+                    />
+                    <InfoBox 
+                        title={"The Complete SQL Bootcamp"} 
+                        // media={
+                        //     <img className="h-37.5 w-37.5 rounded-xl" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
+                        // } 
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Udemy</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />December 2023</h2>
+                            </div> 
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6"> 
+                                <li className="mb-2">Building SQL skills from basic syntax to database design and management by using PostgreSQL and pgAdmin.</li>
+                            </ul>   
+                        }
+                    />
+                    <InfoBox 
+                        title={"Docker & Kubernetes: The Practical Guide"} 
+                        // media={
+                        //     <img className="h-37.5 w-37.5 rounded-xl" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
+                        // } 
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Udemy</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />May 2024</h2>
+                            </div> 
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6"> 
+                                <li className="mb-2">Learning Docker, Docker Compose, Multi-Container Projects, Deployment and all about Kubernetes.</li>
+                            </ul>   
+                        }
+                    />
+                    <InfoBox 
+                        title={"NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"} 
+                        // media={
+                        //     <img className="h-37.5 w-37.5 rounded-xl" src={alpineOntarioLogo} alt="Alpine Ontario logo"/> 
+                        // } 
+                        tagline = {
+                            <div className="flex flex-col">
+                                <h3><i>Udemy</i></h3>
+                                <h2 className="font-light flex items-center gap-2"><IoCalendarClearOutline />August 2024</h2>
+                            </div> 
+                        } 
+                        bullets={
+                            <ul className="list-disc mx-6"> 
+                                <li className="mb-2">Developing and mastering skills in Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use MongoDB, SQL and much more.</li>
+                            </ul>   
+                        }
+                    />
+                </div>
+            )
+        },
     ]
 
 
